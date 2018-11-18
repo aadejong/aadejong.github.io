@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <!-- the mapbox libraries -->
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+
+         <style>
+            body { margin:0; padding:0; }
+             #map { position:absolute; top:0; bottom:0; width:100%; }
+
+        </style>
+</head>
+
+
+<body>
+
+  <!-- Style for fit/bounding box --> 
+  <!--https://www.mapbox.com/mapbox-gl-js/example/fitbounds/--> 
+    <style>
+    #fit {
+        display: block;
+         position: absolute;
+    top: 15px;
+    right: 15px;
+        margin: 0px auto;
+        width: 10%;
+        height: 40px;
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #3887be;
+    }
+</style>
+
+<style>
+
+body {
+    overflow: hidden;
+}
+
+body * {
+   -webkit-touch-callout: none;
+     -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.1.0/mapbox-gl-compare.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-compare/v0.1.0/mapbox-gl-compare.css' type='text/css' />
+
+
+<div id='before' class='map'></div>
+<div id='after' class='map'></div>
+
+<br/>
+<button id='fit'>Global Extent</button>
+
+<script>
+
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpY2lhZGVqb25nIiwiYSI6ImNqb2t3NnF2cTA0ZXozdm85Znc1M2tqcGgifQ.yLRkb_GgaUjUbM6Tbis2wQ';
+
+var beforeMap = new mapboxgl.Map({
+    container: 'before',
+    style: 'mapbox://styles/aliciadejong/cjol2t32r5j532sqonqvcqqs8',
+    center: [20, 20],
+    zoom: 0.78
+});
+
+
+var afterMap = new mapboxgl.Map({
+    container: 'after',
+    style: 'mapbox://styles/aliciadejong/cjol2t32r5j532sqonqvcqqs8',
+     center: [20, 20],
+    zoom: 0.78
+});
+
+
+document.getElementById('fit').addEventListener('click', function() {
+    beforeMap.fitBounds([[
+        -169,
+        67.8
+    ], [
+        179,
+        -49.42
+    ]]);
+    afterMap.fitBounds([[
+         -169,
+        67.8
+    ], [
+        179,
+        -49.42
+    ]]);
+});
+
+//EARTHQUAKE MAP
+
+            beforeMap.on('load', function(){
+
+                //add a source layer for earthquakes
+                beforeMap.addSource('earthquakes', {
+                    "type": "geojson",
+                    "data": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+                });
+                //add the earthquakes to the map
+                beforeMap.addLayer({
+                    "id":"equakes",
+                    "type":"circle",
+                    "source":"earthquakes",
+                    'paint': {
+                'circle-color': [
+                    'interpolate',
+                    ['linear'],
+                    ['get', 'mag'],
+                    0, '#FCA107',
+                    10, '#B22222'
+                ],
+                'circle-opacity': 0.75,
+                'circle-radius': [
+                    'interpolate',
+                    ['linear'],
+                    ['get', 'mag'],
+                    0, 1,
+                    10, 10
+                ]
+            }
+        });
+
+                //add a handler for clicking/popups 
+                //Thanks to: https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/ 
+                beforeMap.on('click', 'equakes', function (e) {
+                    var coordinates = e.features[0].geometry.coordinates.slice();
+                    //print the properties to the console when clicked
+                    //console.log(e.features[0].properties);
+                    //THE HTML ELEMENT THAT WILL GO IN THE POPUP
+                    var description = "<p><b>EARTHQUAKE</b></p><p><b>Location: </b>" + e.features[0].properties.place + "</p> <p><b>Magnitude: </b>" + e.features[0].properties.mag + "</p> <p><b>Significance: </b>" + e.features[0].properties.sig + "/1000" + "</p> <p><b>More:</b> <a target=”_blank” href='" + e.features[0].properties.url + "'> Click here. </a></p>";
+
+                    //var description = e.features[0].properties.mag;
+
+                    // Ensure that if the map is zoomed out such that multiple
+                    // copies of the feature are visible, the popup appears
+                    // over the copy being pointed to.
+                    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                    }
+                    //make the popup
+                    new mapboxgl.Popup()
+                        .setLngLat(coordinates)
+                        .setHTML(description)
+                        .addTo(beforeMap);
+
+                });
+                beforeMap.setCenter([20, 20]);
+                });
+
+
+//END EARTHQUAKE MAP
+
+//METEORITE MAP
+
+        afterMap.on('load', function(){
+
+                    //add a source layer for meteorite landings
+                    afterMap.addSource('meteor', {
+                        "type": "geojson",
+                        "data": "https://data.nasa.gov/resource/y77d-th95.geojson"
+                    });
+                    //add the meteorite landings to the map
+                    afterMap.addLayer({
+                        "id":"mets",
+                        "type":"circle",
+                        "source":"meteor",
+                        "paint": {
+                                "circle-color": "#FFFF00",
+                                "circle-opacity": 0.5,
+                                "circle-radius": 2.5,
+                                "circle-stroke-color": '#FFFF00',
+                                "circle-stroke-width": 1,
+                                "circle-stroke-opacity": 0.75
+                            }
+            });
+
+                    //add a handler for clicking/popups 
+                    //Thanks to: https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/ 
+                    afterMap.on('click', 'mets', function (e) {
+                        var coordinates = e.features[0].geometry.coordinates.slice();
+                        //print the properties to the console when clicked
+                        console.log(e.features[0].properties);
+                        //THE HTML ELEMENT THAT WILL GO IN THE POPUP
+                        
+                        var str = e.features[0].properties.year
+                        var date = str.substring(0, 4);
+
+                        var description = "<p><b>METEORITE LANDING</b></p><p><b>Name: </b>" + e.features[0].properties.name + "</p> <p><b>Mass: </b>" + e.features[0].properties.mass + " g" + "</p> <p><b>Year: </b>" + date + "</p> <p><b>More about meteorites:</b> <a target=”_blank” href='https://solarsystem.nasa.gov/asteroids-comets-and-meteors/meteors-and-meteorites/in-depth/'> Click here. </a></p>";
+
+                        // Ensure that if the map is zoomed out such that multiple
+                        // copies of the feature are visible, the popup appears
+                        // over the copy being pointed to.
+                        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                        }
+                        //make the popup
+                        new mapboxgl.Popup()
+                            .setLngLat(coordinates)
+                            .setHTML(description)
+                            .addTo(afterMap);
+                    
+                    });
+                    afterMap.setCenter([20, 20]);
+                    });
+
+        //Earthquake Layer in Meteorite Map
+
+        afterMap.on('load', function(){
+
+                        //add a source layer for earthquakes
+                        afterMap.addSource('earthquakes', {
+                            "type": "geojson",
+                            "data": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+                        });
+                        //add the earthquakes to the map
+                        afterMap.addLayer({
+                            "id":"equakes",
+                            "type":"circle",
+                            "source":"earthquakes",
+                            'paint': {
+                        'circle-color': [
+                            'interpolate',
+                            ['linear'],
+                            ['get', 'mag'],
+                            0, '#FCA107',
+                            10, '#B22222'
+                        ],
+                        'circle-opacity': 0.75,
+                        'circle-radius': [
+                            'interpolate',
+                            ['linear'],
+                            ['get', 'mag'],
+                            0, 1,
+                            10, 10
+                        ]
+                    }
+                });
+                        //add a handler for clicking/popups 
+                        //Thanks to: https://www.mapbox.com/mapbox-gl-js/example/popup-on-click/ 
+                        afterMap.on('click', 'equakes', function (e) {
+                            var coordinates = e.features[0].geometry.coordinates.slice();
+                            //print the properties to the console when clicked
+                            //console.log(e.features[0].properties);
+                            //THE HTML ELEMENT THAT WILL GO IN THE POPUP
+                            var description = "<p><b>EARTHQUAKE</b></p><p><b>Location: </b>" + e.features[0].properties.place + "</p> <p><b>Magnitude: </b>" + e.features[0].properties.mag + "</p> <p><b>Significance: </b>" + e.features[0].properties.sig + "/1000" + "</p><p><b>More:</b> <a target=”_blank” href='" + e.features[0].properties.url + "'> Click here. </a></p>";
+
+                            //var description = e.features[0].properties.mag;
+
+                            // Ensure that if the map is zoomed out such that multiple
+                            // copies of the feature are visible, the popup appears
+                            // over the copy being pointed to.
+                            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                            }
+                            //make the popup
+                            new mapboxgl.Popup()
+                                .setLngLat(coordinates)
+                                .setHTML(description)
+                                .addTo(afterMap);
+
+                        });
+                        afterMap.setCenter([20, 20]);
+                        });
+
+
+//END METEORITE MAP
+
+
+var map = new mapboxgl.Compare(beforeMap, afterMap, {
+    // Set this to enable comparing two maps by mouse movement:
+    // mousemove: true
+});
+</script>
+
+</body>
+</html>
