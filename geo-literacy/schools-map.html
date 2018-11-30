@@ -1,0 +1,118 @@
+<html>
+<head>
+
+  <title>Tacoma's Third Places</title>
+  
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+  
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+  
+<script src="./assets/jquery-2.1.1.min.js"></script>
+
+  <style>
+    #map{ height: 100%; }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <script>
+
+  var map = L.map('map', {
+  center: [39.8283, -98],
+  zoom: 4,
+  'layers': [
+    L.tileLayer('https://korona.geog.uni-heidelberg.de/tiles/roadsg/x={x}&y={y}&z={z}', {
+       maxZoom: 19,
+        attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    })
+  ]
+});
+
+var controlLayers = L.control.layers().addTo(map);
+
+
+//geojson references
+//Help for geojson feature collections into layer groups --> http://plnkr.co/edit/tFVrrq?p=preview
+
+var middleschools = './geojson/States-Schools.geojson';
+var highschools = './geojson/States-Schools.geojson';
+
+//Middle Schools
+//Thanks to 
+//Thanks to Andy Woodruff (maptimeboston.github.io) for style code. 
+
+$.getJSON(middleschools, function (geojson) {
+  var middleLayer = L.geoJson(geojson, {
+    style: function(feature){
+      var fillColor,
+          req = feature.properties.MiddleSchool;
+      if ( req < 2 ) fillColor = "#08519c";
+      else if ( req < 3 ) fillColor = "#6baed6";
+      else if ( req < 4 ) fillColor = "#bdd7e7";
+      else if ( req < 5 ) fillColor = "#eff3ff";
+      else fillColor = "#f7f7f7";  // no data
+      return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .60 };
+    },
+    onEachFeature: function( feature, layer ){
+      layer.bindPopup("<strong>" + feature.properties.Name + "</strong>" + "<br>" + "Middle School Geography Requirements: " + "<strong>" + feature.properties.MiddleSchool2 + "<strong>")
+      }
+  }  ).addTo(map);
+
+  controlLayers.addOverlay(middleLayer, 'Middle Schools');
+});
+
+
+//Middle Schools
+//School requirement data from 2017 SOCIAL STUDIES AND GEOGRAPHY SURVEY FOR MIDDLE AND HIGH SCHOOLS by Joann Zadrozny
+//Thanks to Andy Woodruff (maptimeboston.github.io) for style code. 
+
+$.getJSON(highschools, function (geojson) {
+  var highLayer = L.geoJson(geojson, {
+    style: function(feature){
+      var fillColor,
+          req = feature.properties.HighSchool;
+      if ( req < 2 ) fillColor = "#a50f15";
+      else if ( req < 3 ) fillColor = "#de2d26";
+      else if ( req < 4 ) fillColor = "#fb6a4a";
+      else if ( req < 5 ) fillColor = "#fcae91";
+      else fillColor = "#f7f7f7";  // no data
+      return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .60 };
+    },
+    onEachFeature: function( feature, layer ){
+      layer.bindPopup("<strong>" + feature.properties.Name + "</strong>" + "<br>" + "Middle School Geography Requirements: " + "<strong>" + feature.properties.HighSchool2 + "<strong>")
+      }
+  }  ).addTo(map);
+
+  controlLayers.addOverlay(highLayer, 'High Schools');
+});
+
+
+//Legend 
+
+       var legend = L.control({position: 'bottomright'});
+
+      //when adding the legend to the map...
+      legend.onAdd = function (map) {
+        //create a div for it
+          var div = L.DomUtil.create('div', 'info legend');
+          //set an image to the div content
+          div.innerHTML = "<img src=legend2.png style='width: 100px;'></img>";
+          //return the div
+          return div;
+      };
+      //add the legend to the map
+      legend.addTo(map);
+
+
+  </script>
+</body>
+</html>
