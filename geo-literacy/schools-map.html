@@ -88,7 +88,7 @@ $.getJSON(highschools, function (geojson) {
       return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .60 };
     },
     onEachFeature: function( feature, layer ){
-      layer.bindPopup("<strong>" + feature.properties.Name + "</strong>" + "<br>" + "Middle School Geography Requirements: " + "<strong>" + feature.properties.HighSchool2 + "<strong>")
+      layer.bindPopup("<strong>" + feature.properties.Name + "</strong>" + "<br>" + "High School Geography Requirements: " + "<strong>" + feature.properties.HighSchool2 + "<strong>")
       }
   }  ).addTo(map);
 
