@@ -83,8 +83,8 @@ $.getJSON(highschools, function (geojson) {
       if ( req < 2 ) fillColor = "#a50f15";
       else if ( req < 3 ) fillColor = "#de2d26";
       else if ( req < 4 ) fillColor = "#fb6a4a";
-      else if ( req < 5 ) fillColor = "#fcae91";
-      else fillColor = "#f7f7f7";  // no data
+      else if ( req < 5 ) fillColor = "#f7f7f7";
+      else fillColor = "#fcae91";  // no data
       return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .60 };
     },
     onEachFeature: function( feature, layer ){
