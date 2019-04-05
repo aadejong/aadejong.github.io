@@ -29,7 +29,7 @@
 
   var map = L.map('map', {
   center: [25, 0],
-  zoom: 1,
+  zoom: 1.5,
   'layers': [
     L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
        maxZoom: 19,
@@ -50,7 +50,7 @@ $.getJSON(places, function (geojson) {
 //Home icon by Dave Gandy. https://www.flaticon.com/authors/dave-gandy.
   var homeIcon = L.icon({
     iconUrl: './mapofplaces_assets/home.png',
-    iconSize: [20,20]
+    iconSize: [23,23]
   }); 
 
   var placesLayer = L.geoJson(geojson, {
