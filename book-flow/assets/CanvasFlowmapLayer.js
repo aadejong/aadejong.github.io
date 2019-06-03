@@ -890,4 +890,3 @@
   return CanvasFlowmapLayer;
 
 }, window));
-
