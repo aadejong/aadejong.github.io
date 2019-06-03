@@ -212,17 +212,17 @@
       },
 
       animatedCanvasBezierStyle: {
-        type: 'simple',
-        symbol: {
-          // use canvas styling options (compare to CircleMarker styling below)
-          strokeStyle: 'rgb(255,255,255)',
-          lineWidth: 1.25,
-          lineDashOffsetSize: 4, // custom property used with animation sprite sizes
-          lineCap: 'round',
-          shadowColor: 'rgb(255,255,255)',
-          shadowBlur: 2
-        }
-      },
+       type: 'simple',
+       symbol: {
+         // use canvas styling options (compare to CircleMarker styling below)
+         strokeStyle: 'rgb(255,255,255)',
+         lineWidth: 1.25,
+         lineDashOffsetSize: 7, // custom property used with animation sprite sizes
+         lineCap: 'round',
+         shadowColor: 'rgb(255,255,255)',
+         shadowBlur: 2
+       }
+     },
 
       // valid values: 'selection' or 'all'
       // use 'all' to display all Bezier paths immediately
@@ -282,11 +282,11 @@
       L.setOptions(this, options);
 
       this._animationPropertiesStatic = {
-        offset: 0,
-        resetOffset: 200,
-        repeat: Infinity,
-        yoyo: false
-      };
+       offset: -300,
+       resetOffset: 300,
+       repeat: Infinity,
+       yoyo: true
+     };
 
       this._animationPropertiesDynamic = {
         duration: null,
