@@ -1,0 +1,165 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3084807, 47.6581826 ]
+    },
+    "properties": {
+    "s_city":"Art Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3148457, 47.6549406 ]
+    },
+    "properties": {
+    "s_city":"Built Environments Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3087777, 47.6595676 ]
+    },
+    "properties": {
+    "s_city":"Drama Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3098157, 47.6562736 ]
+    },
+    "properties": {
+    "s_city":"East Asia Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3065761, 47.6546435 ]
+    },
+    "properties": {
+    "s_city":"Engineering Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3106618, 47.6590396 ]
+    },
+    "properties": {
+    "s_city":"Foster Buisness Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.015176, 48.5460271 ]
+    },
+    "properties": {
+    "s_city":"Friday Harbor Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3128804, 47.6592725 ]
+    },
+    "properties": {
+    "s_city":"Gallagher Law Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3111826, 47.6508106 ]
+    },
+    "properties": {
+    "s_city":"Health Sciences Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3063677, 47.6572246 ]
+    },
+    "properties": {
+    "s_city":"Mathematics Research Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3080658, 47.6577278 ]
+    },
+    "properties": {
+    "s_city":"Music Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3112918, 47.656129 ]
+    },
+    "properties": {
+    "s_city":"Odegaard Undergraduate Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3112918, 47.656129 ]
+    },
+    "properties": {
+    "s_city":"Resource Sharing Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.311291, 47.6557702 ]
+    },
+    "properties": {
+    "s_city":"Suzzallo and Allen Libraries"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.191324, 47.759915 ]
+    },
+    "properties": {
+    "s_city":"UW Bothell/CC Library"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4379816, 47.2445637 ]
+    },
+    "properties": {
+    "s_city":"UW Tacoma Library"
+    }
+  }
+]
+}
