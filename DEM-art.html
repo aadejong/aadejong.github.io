@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<link rel="icon" 
+      type="image/png" 
+      href="img/favicon2.png">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title> Alicia De Jong </title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- Photo slider-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<style>
+	.content {
+	    max-width: 900px;
+	    margin: auto;
+	}
+
+	.box { display:inline-block; }
+
+	.center {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 50%;
+	}
+
+	.mySlides {display:none;}
+
+	</style>
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header>
+
+		<!-- header wrapper -->
+		<div class="header-wrapper sm-padding bg-grey">
+			<div class="content">
+				<h2>Digital Elevation Model (DEM) Art</h2>
+				<ul class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="index.html#blog">MSGT Work</a></li>
+					<li class="breadcrumb-item active">DEM Art</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /header wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+			<br>
+			
+				<!-- Main -->
+				<main id="main" class="content">
+
+				<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-clock-o"></i> June 2019 </li>
+							</ul>
+							<h3>Floodplain Visualization - Part II</h3>
+							<p>I wanted to expand on my <a href="https://aadejong.github.io/floodplain.html" target="_blank"> Floodplain Visualization </a>project by applying the similar methods to different regions of the world. <a href="https://earthexplorer.usgs.gov/" target="_blank">USGS Earth Explorer</a> is a good resource for obtaining DEMs outside of the United States.</p>
+
+							<p>Although I ran into geoprocessing errors and not every DEM was the best resolution, I accidentally discovered and made ample use of the "Edit High/Low Values" button in the DEM's symbology in ArcMap (see below). </p>
+
+
+							<img class="center" src="./DEM-art/adjusting.PNG" alt="">
+
+							<br>
+
+							<p>By manually adjusting the range of elevation values and customizing the color ramp, I was able to visually iscolate interesting water features. Much like the process used in my previous floodplain visualization, this process can be very iterative. The product is an artistic portrait of the landscape in line and color.</p> 
+
+							<p>Click through the images below to see the final visualizations</p>
+
+					
+					<div class="w3-content w3-display-container w3-center">
+
+					<div class="w3-display-container mySlides">
+					  <img src="./DEM-art/GR.jpg" style="width:50%">
+					  <div class="w3-display-center w3-medium w3-container w3-padding-10 w3-black">
+					    Grand River, Michigan
+					  </div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+					  <img src="./DEM-art/Kalamazoo.jpg" style="width:50%">
+					  <div class="w3-display-center w3-medium w3-container w3-padding-10 w3-black">
+					    Kalamazoo, Michigan
+					  </div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+					  <img src="./DEM-art/Nassau.jpg" style="width:50%">
+					  <div class="w3-display-center w3-medium w3-container w3-padding-10 w3-black">
+					    New Providence Island, Bahamas
+					  </div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+					  <img src="./DEM-art/OlympiaVaughn.jpg" style="width:50%">
+					  <div class="w3-display-center w3-medium w3-container w3-padding-10 w3-black">
+					    South Puget Sound, Washington
+					  </div>
+					</div>
+
+					<div class="w3-display-container mySlides">
+					  <img src="./DEM-art/Rwanda2.jpg" style="width:50%">
+					  <div class="w3-display-center w3-medium w3-container w3-padding-1 w3-black">
+					    Northeastern Rwanda
+					  </div>
+					</div>
+
+					<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+					</div>
+
+					<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+					</script>
+
+					<br>
+
+							<p>While searching for the right elevation values to symbolize, I was interested in the progression of floodplain depth across the landscape. Below are two series of stills captured as I expanded the range of symbolized elevation values. The Grand River in Michigan (left) is increasing by 5-foot intervals. The Nisqually River Delta in Washington (right) is increasing by 1-foot intervals. I love how these model the movement of water. 
+							</p>
+
+							<br>
+
+						</div>
+
+					<div class="blog">
+						<div class="box">
+							<iframe src="https://giphy.com/embed/f60pEwwSnHE6SHrepH"  scrolling="no" height="370" width="445" frameBorder="0"></iframe><p>Grand River, Michigan</p>
+						</div>
+
+						<div class="box">
+							<iframe src="https://giphy.com/embed/MBlGEz7iUJJtS1Rl0p" scrolling="no" height="370" width ="445" frameBorder="0"></iframe><p>Nisqually River Delta, Washington</p>
+						</div>
+					</div>
+
+						<div>
+
+		
+
+						<br>
+
+						<br>
+
+
+					
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>
+							Copyright © Alicia De Jong 2018. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
