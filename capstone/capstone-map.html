@@ -1,0 +1,109 @@
+
+<html>
+<head>
+
+  <title>Landscape of Geography</title>
+  
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+  
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+  
+<script src="./assets/jquery-2.1.1.min.js"></script>
+
+  <style>
+    #map{ height: 100%; }
+  </style>
+
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <script>
+
+var map = L.map('map', {
+  'center': [0, 0],
+  'zoom': 0,
+  'layers': [
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    })
+  ]
+});
+
+//Bounding box example found here: http://plnkr.co/edit/HJKk0O?p=preview
+
+var maxBounds = L.latLngBounds(
+  L.latLng(9.491034, -173.824975),
+  L.latLng(71.201470, -52.535911)
+);
+
+map.setMaxBounds(maxBounds);
+map.fitBounds(maxBounds);
+  
+
+var controlLayers = L.control.layers().addTo(map);
+
+
+//geojson references
+//Geojson feature collections into layer groups found here: http://plnkr.co/edit/tFVrrq?p=preview
+
+var schools = './geojson/GeographyDepartments.geojson';
+var jobs = './geojson/USA_States_Jobs.geojson';
+var words = './geojson/USA_States_Corpus.geojson';
+//var gis =  
+
+
+//Schools - data based on June 2019 Geography department websites
+
+$.getJSON(schools, function (geojson) {
+
+  var coffeeIcon = L.icon({
+    iconUrl: './img/coffee.png',
+    iconSize: [20,20]
+  }); 
+
+  var schoolsLayer = L.geoJson(geojson, {
+  pointToLayer: function(feature,latlng){
+  var marker = L.marker(latlng,{icon: coffeeIcon});
+    marker.bindPopup(feature.properties.INSTITUTION);
+    return marker; 
+  }
+  }  ).addTo(map);
+
+  controlLayers.addOverlay(schoolsLayer, 'Geography Departments');
+});
+
+// Jobs - data: 
+
+$.getJSON(jobs, function (geojson) {
+  var jobsLayer = L.geoJson(geojson, {
+    style: function(feature){
+      var fillColor,
+          places = feature.properties.Geographers;
+      if ( places = "Above Average Opportunities" ) fillColor = "#2171b5";
+      else if ( places = "Average Opportunities" ) fillColor = "#6baed6";
+      else if ( places = "Below Average Opportunities" ) fillColor = "#bdd7e7";
+      //else if ( places > 10 ) fillColor = "#eff3ff";
+      else fillColor = "#f7f7f7";  // no data
+      return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .60 };
+    },
+    onEachFeature: function( feature, layer ){
+      layer.bindPopup("Neighborhood Council District: " + "<strong>" + feature.properties.Geographers + "</strong>")
+      }
+  }  ).addTo(map);
+
+  controlLayers.addOverlay(jobsLayer, 'Jobs');
+});
+
+//All icons made by FreePik from www.flaticon.com. 
+    
+  </script>
+</body>
+</html>
+
