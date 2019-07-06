@@ -12,7 +12,7 @@
    integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
    crossorigin=""></script>
 
-<script src="jquery-2.1.1.min.js"></script>
+<script src="./assets/jquery-2.1.1.min.js"></script>
 
   <style>
     #map{ height: 100%; }
@@ -54,7 +54,7 @@ var controlLayers = L.control.layers().addTo(map);
 //Geojson feature collections into layer groups found here: http://plnkr.co/edit/tFVrrq?p=preview
 
 var schools = './geojson/GeographyDepartments2.geojson';
-//var jobs = './geojson/USA_States_Jobs.geojson';
+var jobs = './geojson/USA_States_Jobs.geojson';
 //var words = './geojson/USA_States_Corpus.geojson';
 //var gis =  
 
@@ -71,7 +71,7 @@ $.getJSON(schools, function (geojson) {
   var schoolsLayer = L.geoJson(geojson, {
   pointToLayer: function(feature,latlng){
   var marker = L.marker(latlng,{icon: coffeeIcon});
-    marker.bindPopup(feature.properties.INSTITUTION);
+    //marker.bindPopup(feature.properties.INSTITUTION);
     return marker; 
   }
   }  ).addTo(map);
@@ -81,7 +81,25 @@ $.getJSON(schools, function (geojson) {
 
 // Jobs - data: 
 
+$.getJSON(jobs, function (geojson) {
+  var jobsLayer = L.geoJson(geojson, {
+    style: function(feature){
+      var fillColor,
+          places = feature.properties.Geographers;
+      if ( places = "Above Average Opportunities" ) fillColor = "#2171b5";
+      else if ( places = "Average Opportunities" ) fillColor = "#6baed6";
+      else if ( places = "Below Average Opportunities" ) fillColor = "#bdd7e7";
+      //else if ( places > 10 ) fillColor = "#eff3ff";
+      else fillColor = "#f7f7f7";  // no data
+      return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .60 };
+    },
+    onEachFeature: function( feature, layer ){
+      layer.bindPopup("Neighborhood Council District: " + "<strong>" + feature.properties.Geographers + "</strong>")
+      }
+  }  ).addTo(map);
 
+  controlLayers.addOverlay(jobsLayer, 'Jobs');
+});
 
 //All icons made by FreePik from www.flaticon.com. 
     
