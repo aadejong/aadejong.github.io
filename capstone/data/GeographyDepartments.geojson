@@ -1,0 +1,3299 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16453001.8059,
+          9570970.140500002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "STATE": "Alaska",
+        "ABBRV": "AK",
+        "Program": "D",
+        "INSTITUTION": "University of Alaska, Fairbanks",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 6944,
+        "GEOGRAPHY_HITS": 23,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9815578.2896,
+          3593270.7258
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "STATE": "Alabama",
+        "ABBRV": "AL",
+        "Program": "B",
+        "INSTITUTION": "University of S Alabama",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 4392,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9745620.6688,
+          3923888.487800002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "STATE": "Alabama",
+        "ABBRV": "AL",
+        "Program": "D",
+        "INSTITUTION": "University of Alabama",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3850,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 20,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9515799.3537,
+          3842877.278800003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "STATE": "Alabama",
+        "ABBRV": "AL",
+        "Program": "M",
+        "INSTITUTION": "Auburn University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6044,
+        "GEOGRAPHY_HITS": 15,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 4,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10483799.1365,
+          4310304.369000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "STATE": "Arkansas",
+        "ABBRV": "AR",
+        "Program": "M",
+        "INSTITUTION": "University of Arkansas",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 4133,
+        "GEOGRAPHY_HITS": 5,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 11,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10292029.0457,
+          4174521.4591000006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "STATE": "Arkansas",
+        "ABBRV": "AR",
+        "Program": "M",
+        "INSTITUTION": "University of Central Arkansas",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 8145,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 20,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12358082.0634,
+          3792883.061999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "STATE": "Arizona",
+        "ABBRV": "AZ",
+        "Program": "B",
+        "INSTITUTION": "Prima Community College",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 944,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12351003.257,
+          3793816.0676999986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "STATE": "Arizona",
+        "ABBRV": "AZ",
+        "Program": "D",
+        "INSTITUTION": "University of Arizona",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 10868,
+        "GEOGRAPHY_HITS": 29,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 1,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12429284.236200001,
+          4187979.8950000033
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "STATE": "Arizona",
+        "ABBRV": "AZ",
+        "Program": "M",
+        "INSTITUTION": "Northern Arizona University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6916,
+        "GEOGRAPHY_HITS": 16,
+        "GIS_HITS": 12,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 11,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13044997.5161,
+          3914914.0161999986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "STATE": "California",
+        "ABBRV": "CA",
+        "Program": "B",
+        "INSTITUTION": "Palomar College",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4281,
+        "GEOGRAPHY_HITS": 15,
+        "GIS_HITS": 10,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13609841.907499999,
+          4561004.086800002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "STATE": "California",
+        "ABBRV": "CA",
+        "Program": "D",
+        "INSTITUTION": "University of California, Berkeley",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 13826,
+        "GEOGRAPHY_HITS": 36,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13634238.6871,
+          4540792.1932
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "STATE": "California",
+        "ABBRV": "CA",
+        "Program": "M",
+        "INSTITUTION": "Sanfrancisco State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5200,
+        "GEOGRAPHY_HITS": 24,
+        "GIS_HITS": 22,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11668706.0604,
+          4715309.353
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "STATE": "Colorado",
+        "ABBRV": "CO",
+        "Program": "B",
+        "INSTITUTION": "United States Air Force Academy",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1807,
+        "GEOGRAPHY_HITS": 1,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 9,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11718251.0262,
+          4866511.939599998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "STATE": "Colorado",
+        "ABBRV": "CO",
+        "Program": "D",
+        "INSTITUTION": "University of Colorado, Boulder",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 8088,
+        "GEOGRAPHY_HITS": 26,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 2,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11688827.058400001,
+          4829082.678800002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "STATE": "Colorado",
+        "ABBRV": "CO",
+        "Program": "M",
+        "INSTITUTION": "University of Colorado, Denver",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6355,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8078218.3364,
+          5125384.154700004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "STATE": "Connecitcut",
+        "ABBRV": "CT",
+        "Program": "B",
+        "INSTITUTION": "Manchester Community College",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3034,
+        "GEOGRAPHY_HITS": 5,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8043673.672,
+          5132417.344499998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "STATE": "Connecticut",
+        "ABBRV": "CT",
+        "Program": "D",
+        "INSTITUTION": "University of Connecticut",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 9948,
+        "GEOGRAPHY_HITS": 20,
+        "GIS_HITS": 14,
+        "GISCIENCE_HITS": 3,
+        "GEOSCIENCE_HITS": 2,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8100806.169299999,
+          5114661.4309
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "STATE": "Connecticut",
+        "ABBRV": "CT",
+        "Program": "M",
+        "INSTITUTION": "Central Connecticut State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3910,
+        "GEOGRAPHY_HITS": 24,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8577180.124,
+          4707430.486699998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "STATE": "DC",
+        "ABBRV": "DC",
+        "Program": "M",
+        "INSTITUTION": "George Washington University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5154,
+        "GEOGRAPHY_HITS": 23,
+        "GIS_HITS": 6,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8432758.6746,
+          4817653.066399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "STATE": "Delaware",
+        "ABBRV": "DE",
+        "Program": "D",
+        "INSTITUTION": "University of Delaware",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4736,
+        "GEOGRAPHY_HITS": 14,
+        "GIS_HITS": 21,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9084136.8754,
+          3549027.8039000034
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "STATE": "Florida",
+        "ABBRV": "FL",
+        "Program": "B",
+        "INSTITUTION": "Jacksonville University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 1322,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9383216.7269,
+          3560328.308799997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "STATE": "Florida",
+        "ABBRV": "FL",
+        "Program": "D",
+        "INSTITUTION": "Florida State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 6143,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 2,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8936459.3208,
+          2964142.6147999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "STATE": "Florida",
+        "ABBRV": "FL",
+        "Program": "M",
+        "INSTITUTION": "University of Miami",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3867,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 6,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 7,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9473148.4039,
+          3971716.3445999995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "STATE": "Georgia",
+        "ABBRV": "GA",
+        "Program": "B",
+        "INSTITUTION": "University of West Georgia",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3215,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 1,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9281157.9046,
+          4023056.478600003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "STATE": "Georgia",
+        "ABBRV": "GA",
+        "Program": "D",
+        "INSTITUTION": "University of Georgia",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 7470,
+        "GEOGRAPHY_HITS": 15,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 6,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9104178.8385,
+          3819467.3928999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "STATE": "Georgia",
+        "ABBRV": "GA",
+        "Program": "M",
+        "INSTITUTION": "Georgia Southern University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6117,
+        "GEOGRAPHY_HITS": 29,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 1,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17263519.0317,
+          2237380.0425999984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "STATE": "Hawaii",
+        "ABBRV": "HI",
+        "Program": "B",
+        "INSTITUTION": "University of Hawaii, Hilo",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2072,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17568459.8481,
+          2427612.465500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "STATE": "Hawaii",
+        "ABBRV": "HI",
+        "Program": "D",
+        "INSTITUTION": "University of Hawaii at Moana",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2858,
+        "GEOGRAPHY_HITS": 12,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10189797.6879,
+          5110559.868600003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "STATE": "Iowa",
+        "ABBRV": "IA",
+        "Program": "D",
+        "INSTITUTION": "University of Iowa",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3133,
+        "GEOGRAPHY_HITS": 2,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 2,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10292832.7765,
+          5238153.434600003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "STATE": "Iowa",
+        "ABBRV": "IA",
+        "Program": "M",
+        "INSTITUTION": "University of Northern Iowa",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4128,
+        "GEOGRAPHY_HITS": 16,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13025148.5273,
+          5897820.0678
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "STATE": "Idaho",
+        "ABBRV": "ID",
+        "Program": "D",
+        "INSTITUTION": "University of Idaho",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6149,
+        "GEOGRAPHY_HITS": 15,
+        "GIS_HITS": 25,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9753374.0713,
+          5145308.771499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "STATE": "Illinois",
+        "ABBRV": "IL",
+        "Program": "B",
+        "INSTITUTION": "Northwestern University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2892,
+        "GEOGRAPHY_HITS": 12,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 3,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9880957.3397,
+          5150652.1686
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "STATE": "Illinois",
+        "ABBRV": "IL",
+        "Program": "D",
+        "INSTITUTION": "Northern Illinois University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3282,
+        "GEOGRAPHY_HITS": 9,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10036799.0551,
+          4667583.133900002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "STATE": "Illinois",
+        "ABBRV": "IL",
+        "Program": "M",
+        "INSTITUTION": "Southern Illinois Universiy, Edwardsville",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4815,
+        "GEOGRAPHY_HITS": 24,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": 2,
+        "SymbolID": null
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9689766.1143,
+          5080942.647399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "STATE": "Indiana",
+        "ABBRV": "IN",
+        "Program": "B",
+        "INSTITUTION": "Valparaiso University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 15126,
+        "GEOGRAPHY_HITS": 52,
+        "GIS_HITS": 13,
+        "GISCIENCE_HITS": 3,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 5,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9630922.6314,
+          4746555.953699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "STATE": "Indiana",
+        "ABBRV": "IN",
+        "Program": "D",
+        "INSTITUTION": "Indiana University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 10953,
+        "GEOGRAPHY_HITS": 37,
+        "GIS_HITS": 19,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9730110.5332,
+          4788949.297200002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "STATE": "Indiana",
+        "ABBRV": "IN",
+        "Program": "M",
+        "INSTITUTION": "Indiana State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 5934,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 4,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10542516.8275,
+          4493811.231600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "STATE": "Kansas",
+        "ABBRV": "KS",
+        "Program": "B",
+        "INSTITUTION": "Pittsburg State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2227,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10557782.0716,
+          4711569.480599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "STATE": "Kansas",
+        "ABBRV": "KS",
+        "Program": "D",
+        "INSTITUTION": "Kansas State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6370,
+        "GEOGRAPHY_HITS": 21,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 1,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11058465.9703,
+          4703357.509800002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "STATE": "Kansas",
+        "ABBRV": "KS",
+        "Program": "M",
+        "INSTITUTION": "Fort Hays State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4950,
+        "GEOGRAPHY_HITS": 15,
+        "GIS_HITS": 6,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 20,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9384486.8823,
+          4543072.467
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "STATE": "Kentucky",
+        "ABBRV": "KY",
+        "Program": "B",
+        "INSTITUTION": "Eastern Kentucky University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 745,
+        "GEOGRAPHY_HITS": 1,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 1,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9407241.6994,
+          4584942.3244
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "STATE": "Kentucky",
+        "ABBRV": "KY",
+        "Program": "D",
+        "INSTITUTION": "University of Kentucky",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2680,
+        "GEOGRAPHY_HITS": 11,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9624142.1603,
+          4437335.322999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "STATE": "Kentucky",
+        "ABBRV": "KY",
+        "Program": "M",
+        "INSTITUTION": "Western Kentucky University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3416,
+        "GEOGRAPHY_HITS": 2,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 7,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10149837.3246,
+          3557107.2287999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "STATE": "Louisiana",
+        "ABBRV": "LA",
+        "Program": "D",
+        "INSTITUTION": "Louisiana State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3856,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8103547.9690000005,
+          5180427.721299998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "STATE": "Massachusetts",
+        "ABBRV": "MA",
+        "Program": "B",
+        "INSTITUTION": "Westfield State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4420,
+        "GEOGRAPHY_HITS": 3,
+        "GIS_HITS": 37,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 5,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7995230.776799999,
+          5198526.178900003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "STATE": "Massachusetts",
+        "ABBRV": "MA",
+        "Program": "D",
+        "INSTITUTION": "Clark University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 12066,
+        "GEOGRAPHY_HITS": 42,
+        "GIS_HITS": 22,
+        "GISCIENCE_HITS": 3,
+        "GEOSCIENCE_HITS": 1,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7891420.8959,
+          5236758.112899996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "STATE": "Massachusetts",
+        "ABBRV": "MA",
+        "Program": "M",
+        "INSTITUTION": "Salem State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1920,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8786772.4612,
+          4814965.045199998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "STATE": "Maryland",
+        "ABBRV": "MD",
+        "Program": "B",
+        "INSTITUTION": "Frostburg State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 10310,
+        "GEOGRAPHY_HITS": 19,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 4,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8564799.1702,
+          4719931.3386999965
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "STATE": "Maryland",
+        "ABBRV": "MD",
+        "Program": "D",
+        "INSTITUTION": "University of Maryland, College Park",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6650,
+        "GEOGRAPHY_HITS": 4,
+        "GIS_HITS": 8,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8416630.7016,
+          4628756.376699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "STATE": "Maryland",
+        "ABBRV": "MD",
+        "Program": "M",
+        "INSTITUTION": "Salisbury University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 15124,
+        "GEOGRAPHY_HITS": 28,
+        "GIS_HITS": 26,
+        "GISCIENCE_HITS": 4,
+        "GEOSCIENCE_HITS": 3,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7823302.262700001,
+          5413337.884800002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "STATE": "Maine",
+        "ABBRV": "ME",
+        "Program": "B",
+        "INSTITUTION": "University of Southern Maine",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4095,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 12,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7808907.5451,
+          5569333.436099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "STATE": "Maine",
+        "ABBRV": "ME",
+        "Program": "B",
+        "INSTITUTION": "University of Maine at Farmington",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 6520,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9527745.0482,
+          5300859.493600003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "STATE": "Michigan",
+        "ABBRV": "MI",
+        "Program": "B",
+        "INSTITUTION": "Calvin College",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2439,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9404316.2232,
+          5270883.1417
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "STATE": "Michigan",
+        "ABBRV": "MI",
+        "Program": "D",
+        "INSTITUTION": "Michigan State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 15507,
+        "GEOGRAPHY_HITS": 40,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9308762.9119,
+          5198008.8499
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "STATE": "Michigan",
+        "ABBRV": "MI",
+        "Program": "M",
+        "INSTITUTION": "Eastern Michigan University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 7709,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 17,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 8,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10460545.6081,
+          5515445.741800003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "STATE": "Minnesota",
+        "ABBRV": "MN",
+        "Program": "B",
+        "INSTITUTION": "Gustavus Adolphus College",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6669,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10377664.9076,
+          5617529.9564
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "STATE": "Minnesota",
+        "ABBRV": "MN",
+        "Program": "D",
+        "INSTITUTION": "University of Minnesota, Twin Cities",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 10596,
+        "GEOGRAPHY_HITS": 37,
+        "GIS_HITS": 6,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10481031.7327,
+          5708878.641000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "STATE": "Minnesota",
+        "ABBRV": "MN",
+        "Program": "M",
+        "INSTITUTION": "St. Cloud State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4299,
+        "GEOGRAPHY_HITS": 14,
+        "GIS_HITS": 10,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10383459.0951,
+          4466741.494999997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "STATE": "Missouri",
+        "ABBRV": "MO",
+        "Program": "B",
+        "INSTITUTION": "Missouri State University, Springfield",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2487,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10528119.8786,
+          4726604.575300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "STATE": "Missouri",
+        "ABBRV": "MO",
+        "Program": "D",
+        "INSTITUTION": "University of Missouri, Kansas City",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 5543,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 12,
+        "GEOSPATIAL_HITS": 5,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10278050.6613,
+          4713711.907300003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "STATE": "Missouri",
+        "ABBRV": "MO",
+        "Program": "M",
+        "INSTITUTION": "University of Missouri, Columbia",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6676,
+        "GEOGRAPHY_HITS": 19,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 8,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9944406.1099,
+          3675423.7600999996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "STATE": "Mississippi",
+        "ABBRV": "MS",
+        "Program": "D",
+        "INSTITUTION": "University of Southern Mississippi",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2266,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12361971.5665,
+          5726847.503799997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "STATE": "Montana",
+        "ABBRV": "MT",
+        "Program": "D",
+        "INSTITUTION": "Montana State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5242,
+        "GEOGRAPHY_HITS": 14,
+        "GIS_HITS": 11,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12688349.181499999,
+          5919457.502700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "STATE": "Montana",
+        "ABBRV": "MT",
+        "Program": "M",
+        "INSTITUTION": "University of Montana",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4829,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 10,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8783229.1561,
+          4297305.750299998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "STATE": "North Carolina",
+        "ABBRV": "NC",
+        "Program": "B",
+        "INSTITUTION": "North Carolina Central University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 982,
+        "GEOGRAPHY_HITS": 1,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8797590.4873,
+          4288072.776600003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "STATE": "North Carolina",
+        "ABBRV": "NC",
+        "Program": "D",
+        "INSTITUTION": "University of North Carolina Chapel Hill",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5233,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9092285.4641,
+          4329730.874200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "STATE": "North Carolina",
+        "ABBRV": "NC",
+        "Program": "M",
+        "INSTITUTION": "Appalachian State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2719,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10806144.7596,
+          6093502.835699998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "STATE": "North Dakota",
+        "ABBRV": "ND",
+        "Program": "M",
+        "INSTITUTION": "University of North Dakota",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2634,
+        "GEOGRAPHY_HITS": 11,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10808221.9813,
+          4999569.1976
+        ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "STATE": "Nebraska",
+        "ABBRV": "NE",
+        "Program": "B",
+        "INSTITUTION": "Concordia University, Nebraska",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 534,
+        "GEOGRAPHY_HITS": 3,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10764605.8917,
+          4985371.856200002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 70,
+        "STATE": "Nebraska",
+        "ABBRV": "NE",
+        "Program": "D",
+        "INSTITUTION": "University of Nebraska, Lincoln",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2371,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10687485.9777,
+          5050668.351400003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "STATE": "Nebraska",
+        "ABBRV": "NE",
+        "Program": "M",
+        "INSTITUTION": "University of Nebraska, Omaha",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5812,
+        "GEOGRAPHY_HITS": 19,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8047220.310900001,
+          5419618.296099998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 72,
+        "STATE": "New Hampshire",
+        "ABBRV": "NH",
+        "Program": "B",
+        "INSTITUTION": "Dartmouth College",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4925,
+        "GEOGRAPHY_HITS": 21,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7980398.5645,
+          5428430.375699997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 73,
+        "STATE": "New Hampshire",
+        "ABBRV": "NH",
+        "Program": "B",
+        "INSTITUTION": "Plymouth State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1162,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7896817.6601,
+          5333471.9001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 74,
+        "STATE": "New Hampshire",
+        "ABBRV": "NH",
+        "Program": "B",
+        "INSTITUTION": "University of New Hampshire",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2233,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8259891.7453000005,
+          4991466.303300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "STATE": "New Jersey",
+        "ABBRV": "NJ",
+        "Program": "B",
+        "INSTITUTION": "Montclair State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2016,
+        "GEOGRAPHY_HITS": 4,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8259901.767100001,
+          5004432.991099998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 76,
+        "STATE": "New Jersey",
+        "ABBRV": "NJ",
+        "Program": "B",
+        "INSTITUTION": "William Patterson University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 7563,
+        "GEOGRAPHY_HITS": 19,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8291179.201400001,
+          4945974.822999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "STATE": "New Jersey",
+        "ABBRV": "NJ",
+        "Program": "D",
+        "INSTITUTION": "Rutgers University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 7152,
+        "GEOGRAPHY_HITS": 24,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11882845.7989,
+          3800836.342799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "STATE": "New Mexico",
+        "ABBRV": "NM",
+        "Program": "M",
+        "INSTITUTION": "New Mexico State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2385,
+        "GEOGRAPHY_HITS": 12,
+        "GIS_HITS": 9,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 78
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11868856.2785,
+          4175224.7356999964
+        ]
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "STATE": "New Mexico",
+        "ABBRV": "NM",
+        "Program": "M",
+        "INSTITUTION": "University of New Mexico",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1599,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 1,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13338417.1591,
+          4800429.885300003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "STATE": "Nevada",
+        "ABBRV": "NV",
+        "Program": "D",
+        "INSTITUTION": "University of Nevada, Reno",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5523,
+        "GEOGRAPHY_HITS": 26,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 80
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8226012.7754,
+          5114181.430299997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 81,
+        "STATE": "New York",
+        "ABBRV": "NY",
+        "Program": "B",
+        "INSTITUTION": "Vassar College",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3688,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 81
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8770779.19,
+          5312028.164899997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "STATE": "New York",
+        "ABBRV": "NY",
+        "Program": "D",
+        "INSTITUTION": "University at Buffalo, SUNY",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4395,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 82
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8456478.6331,
+          5174025.0402000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 83,
+        "STATE": "New York",
+        "ABBRV": "NY",
+        "Program": "M",
+        "INSTITUTION": "Binghamton University, SUNY",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1645,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 83
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9247084.1159,
+          4909063.017099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 84,
+        "STATE": "Ohio",
+        "ABBRV": "OH",
+        "Program": "B",
+        "INSTITUTION": "Ohio Wesleyan University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2904,
+        "GEOGRAPHY_HITS": 5,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 84
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9358255.5571,
+          4833586.3508
+        ]
+      },
+      "properties": {
+        "OBJECTID": 85,
+        "STATE": "Ohio",
+        "ABBRV": "OH",
+        "Program": "D",
+        "INSTITUTION": "Wright State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3032,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 4,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 85
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9432596.9419,
+          4795042.1679000035
+        ]
+      },
+      "properties": {
+        "OBJECTID": 86,
+        "STATE": "Ohio",
+        "ABBRV": "OH",
+        "Program": "M",
+        "INSTITUTION": "Miami University of Ohio",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2658,
+        "GEOGRAPHY_HITS": 11,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 86
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10850865.1387,
+          4253373.7179000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 87,
+        "STATE": "Oklahoma",
+        "ABBRV": "OK",
+        "Program": "B",
+        "INSTITUTION": "University of Central Oklahoma",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2010,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 87
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10571653.5969,
+          4289603.950999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 88,
+        "STATE": "Oklahoma",
+        "ABBRV": "OK",
+        "Program": "B",
+        "INSTITUTION": "Northeastern State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 2524,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 88
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10847637.9866,
+          4192505.1010999978
+        ]
+      },
+      "properties": {
+        "OBJECTID": 89,
+        "STATE": "Oklahoma",
+        "ABBRV": "OK",
+        "Program": "D",
+        "INSTITUTION": "University of Oklahoma",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3803,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 89
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13718713.482099999,
+          5598237.807700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 90,
+        "STATE": "Oregon",
+        "ABBRV": "OR",
+        "Program": "B",
+        "INSTITUTION": "Western Oregon University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 1546,
+        "GEOGRAPHY_HITS": 10,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 90
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13722815.605999999,
+          5553224.206200004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 91,
+        "STATE": "Oregon",
+        "ABBRV": "OR",
+        "Program": "D",
+        "INSTITUTION": "Oregon State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6659,
+        "GEOGRAPHY_HITS": 31,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 9,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 15,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 91
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13657192.7747,
+          5702693.725699998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 92,
+        "STATE": "Oregon",
+        "ABBRV": "OR",
+        "Program": "D",
+        "INSTITUTION": "Portland State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4296,
+        "GEOGRAPHY_HITS": 16,
+        "GIS_HITS": 8,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 92
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8370560.017100001,
+          4859121.9772000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 93,
+        "STATE": "Pennsylvania",
+        "ABBRV": "PA",
+        "Program": "B",
+        "INSTITUTION": "Mansfield University of Pennsylvania",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 5709,
+        "GEOGRAPHY_HITS": 0,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 5,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 93
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8667210.8753,
+          4983926.046899997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 94,
+        "STATE": "Pennsylvania",
+        "ABBRV": "PA",
+        "Program": "D",
+        "INSTITUTION": "Pennsylvania State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6850,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 2,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 15,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 94
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8386536.596100001,
+          4870964.273000002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 95,
+        "STATE": "Pennsylvania",
+        "ABBRV": "PA",
+        "Program": "M",
+        "INSTITUTION": "Villanova University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3337,
+        "GEOGRAPHY_HITS": 9,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 95
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7954968.7357,
+          5137303.7588
+        ]
+      },
+      "properties": {
+        "OBJECTID": 96,
+        "STATE": "Rhode Island",
+        "ABBRV": "RI",
+        "Program": "B",
+        "INSTITUTION": "Rhode Island College",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 1499,
+        "GEOGRAPHY_HITS": 9,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 96
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9020235.0369,
+          4028495.8818999976
+        ]
+      },
+      "properties": {
+        "OBJECTID": 97,
+        "STATE": "South Carolina",
+        "ABBRV": "SC",
+        "Program": "D",
+        "INSTITUTION": "University of South Carolina",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 8355,
+        "GEOGRAPHY_HITS": 33,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 1,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 97
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10774428.7235,
+          5515168.778300002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 98,
+        "STATE": "South Dakota",
+        "ABBRV": "SD",
+        "Program": "D",
+        "INSTITUTION": "South Dakota State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5850,
+        "GEOGRAPHY_HITS": 27,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 7,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 98
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9168971.244,
+          4342593.101099998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 99,
+        "STATE": "Tennessee",
+        "ABBRV": "TN",
+        "Program": "B",
+        "INSTITUTION": "East Tennessee State University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3446,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 6,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 99
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9342718.6962,
+          4294087.412100002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 100,
+        "STATE": "Tennessee",
+        "ABBRV": "TN",
+        "Program": "D",
+        "INSTITUTION": "University of Tennessee, Knoxville",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 4188,
+        "GEOGRAPHY_HITS": 12,
+        "GIS_HITS": 6,
+        "GISCIENCE_HITS": 8,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 100
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9614563.1248,
+          4279460.080899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 101,
+        "STATE": "Tennessee",
+        "ABBRV": "TN",
+        "Program": "M",
+        "INSTITUTION": "Middle Tennessee State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2140,
+        "GEOGRAPHY_HITS": 9,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 101
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10838120.1702,
+          3856722.1292999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 102,
+        "STATE": "Texas",
+        "ABBRV": "TX",
+        "Program": "B",
+        "INSTITUTION": "Texas Christian University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1345,
+        "GEOGRAPHY_HITS": 3,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 102
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10879527.6812,
+          3539424.6699
+        ]
+      },
+      "properties": {
+        "OBJECTID": 103,
+        "STATE": "Texas",
+        "ABBRV": "TX",
+        "Program": "D",
+        "INSTITUTION": "University of Texas at Austin",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2864,
+        "GEOGRAPHY_HITS": 4,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 103
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10978019.827,
+          3450320.067400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 104,
+        "STATE": "Texas",
+        "ABBRV": "TX",
+        "Program": "M",
+        "INSTITUTION": "University of Texas at San Antonio",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1752,
+        "GEOGRAPHY_HITS": 12,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 104
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12428837.844999999,
+          4902685.517800003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 105,
+        "STATE": "Utah",
+        "ABBRV": "UT",
+        "Program": "B",
+        "INSTITUTION": "Bringham Young University",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 7698,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 10,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 105
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12451026.0459,
+          4977774.571800001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 106,
+        "STATE": "Utah",
+        "ABBRV": "UT",
+        "Program": "D",
+        "INSTITUTION": "University of Utah",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 921,
+        "GEOGRAPHY_HITS": 5,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 106
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12447156.580400001,
+          5122252.159199998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 107,
+        "STATE": "Utah",
+        "ABBRV": "UT",
+        "Program": "M",
+        "INSTITUTION": "Utah State University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5023,
+        "GEOGRAPHY_HITS": 20,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 107
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8145945.1072,
+          5466850.533299997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 108,
+        "STATE": "Vermont",
+        "ABBRV": "VT",
+        "Program": "B",
+        "INSTITUTION": "Middlebury College",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5980,
+        "GEOGRAPHY_HITS": 26,
+        "GIS_HITS": 2,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 108
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8148656.8528,
+          5539314.845799997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 109,
+        "STATE": "Vermont",
+        "ABBRV": "VT",
+        "Program": "B",
+        "INSTITUTION": "University of Vermont",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1804,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 109
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9109577.8338,
+          4407435.1455999985
+        ]
+      },
+      "properties": {
+        "OBJECTID": 110,
+        "STATE": "Virginia",
+        "ABBRV": "VT",
+        "Program": "B",
+        "INSTITUTION": "Emory & Henry College",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 1997,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 110
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8479689.798,
+          4421661.581299998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 111,
+        "STATE": "Virginia",
+        "ABBRV": "VT",
+        "Program": "D",
+        "INSTITUTION": "Virginia Tech",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5329,
+        "GEOGRAPHY_HITS": 5,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 2,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 111
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8624277.1825,
+          4621985.080499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 112,
+        "STATE": "Virginia",
+        "ABBRV": "VT",
+        "Program": "M",
+        "INSTITUTION": "University of Mary Washington",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3957,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 7,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 7,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 112
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13615719.5767,
+          6049899.396700002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 113,
+        "STATE": "Washington",
+        "ABBRV": "WA",
+        "Program": "D",
+        "INSTITUTION": "University of Washington",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 8321,
+        "GEOGRAPHY_HITS": 14,
+        "GIS_HITS": 6,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 113
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13418797.6238,
+          5942031.633900002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 114,
+        "STATE": "Washington",
+        "ABBRV": "WA",
+        "Program": "M",
+        "INSTITUTION": "Central Washington University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3123,
+        "GEOGRAPHY_HITS": 7,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 1,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 1,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13088747.5788,
+          6022381.706500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 115,
+        "STATE": "Washington",
+        "ABBRV": "WA",
+        "Program": "M",
+        "INSTITUTION": "Eastern Washington University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 1224,
+        "GEOGRAPHY_HITS": 6,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 115
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9857526.8059,
+          5469508.436399996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 116,
+        "STATE": "Wisconsin",
+        "ABBRV": "WI",
+        "Program": "B",
+        "INSTITUTION": "University of Wisconsin, Oshkosh",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3019,
+        "GEOGRAPHY_HITS": 2,
+        "GIS_HITS": 15,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 116
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9776568.6004,
+          5254824.036700003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 117,
+        "STATE": "Wisconsin",
+        "ABBRV": "WI",
+        "Program": "B",
+        "INSTITUTION": "Carthage College",
+        "IN_GUIDE": "N",
+        "TOTAL_CHARS": 3378,
+        "GEOGRAPHY_HITS": 9,
+        "GIS_HITS": 4,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 8,
+        "DEPTLABORSTAT": 1,
+        "SymbolID": null
+      },
+      "id": 117
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9951691.9706,
+          5323522.601800002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 118,
+        "STATE": "Wisconsin",
+        "ABBRV": "WI",
+        "Program": "D",
+        "INSTITUTION": "University of Wisconsin, Madison",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 6676,
+        "GEOGRAPHY_HITS": 30,
+        "GIS_HITS": 13,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 118
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9017369.6732,
+          4498513.035599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 119,
+        "STATE": "West Virginia",
+        "ABBRV": "WV",
+        "Program": "B",
+        "INSTITUTION": "Concord University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 2247,
+        "GEOGRAPHY_HITS": 8,
+        "GIS_HITS": 1,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 6,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 119
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8900562.1315,
+          4812860.249799997
+        ]
+      },
+      "properties": {
+        "OBJECTID": 120,
+        "STATE": "West Virginia",
+        "ABBRV": "WV",
+        "Program": "D",
+        "INSTITUTION": "West Virginia University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3441,
+        "GEOGRAPHY_HITS": 13,
+        "GIS_HITS": 0,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 120
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9176052.2678,
+          4639261.295900002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 121,
+        "STATE": "West Virginia",
+        "ABBRV": "WV",
+        "Program": "M",
+        "INSTITUTION": "Marshall University",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 3209,
+        "GEOGRAPHY_HITS": 17,
+        "GIS_HITS": 5,
+        "GISCIENCE_HITS": 3,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 0,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 121
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11753406.8346,
+          5058376.237400003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 122,
+        "STATE": "Wyoming",
+        "ABBRV": "WY",
+        "Program": "M",
+        "INSTITUTION": "University of Wyoming",
+        "IN_GUIDE": "Y",
+        "TOTAL_CHARS": 5615,
+        "GEOGRAPHY_HITS": 24,
+        "GIS_HITS": 3,
+        "GISCIENCE_HITS": 0,
+        "GEOSCIENCE_HITS": 0,
+        "GEOSPATIAL_HITS": 3,
+        "DEPTLABORSTAT": null,
+        "SymbolID": null
+      },
+      "id": 122
+    }
+  ]
+}
