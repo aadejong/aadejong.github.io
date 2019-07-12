@@ -45,18 +45,28 @@
   ];
 
   // create a tag cloud chart
-  var chart = anychart.tagCloud(data);
+    var chart = anychart.tagCloud(data);
 
   // set the chart title
-  //chart.title('Geography - Nouns')
+    //chart.title('Geography - Nouns')
 
   // set array of angles, by which words will be placed
-  chart.angles([0])
+    chart.angles([0])
 
+
+  // create and configure a color scale.
+    var customColorScale = anychart.scales.linearColor();
+    customColorScale.colors(["#000000", "#b8747e"]);
+
+  // set the color scale as the color scale of the chart
+    chart.colorScale(customColorScale);
+
+  // add a color range
+    //chart.colorRange().enabled(true);
 
   // configure the visual settings of the chart
-    chart.normal().fill("#00000");
-    chart.hovered().fill("#484848");
+    //chart.normal().fill("#00000");
+    //chart.hovered().fill("#484848");
     //chart.selected().fill("#1f66ad");
     //chart.normal().fontWeight(600);
 
