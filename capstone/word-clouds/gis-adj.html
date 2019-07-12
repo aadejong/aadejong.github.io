@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>JavaScript Tag Cloud Chart</title>
+  <link href="https://playground.anychart.com/HESSya5u/iframe" rel="canonical">
+  <meta content="Tag Cloud,Weighted List Chart,Word Cloud,Tooltip" name="keywords">
+  <meta content="AnyChart - JavaScript Charts designed to be embedded and integrated" name="description">
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <style>html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}</style>
+ </head>
+ <body>
+  <div id="container"></div>
+  <script src="js/anychart-base.min.js"></script>
+  <script src="js/anychart-tag-cloud.min.js"></script>
+  <script type="text/javascript">anychart.onDocumentReady(function () {
+
+  var data = [
+    {"x": "computer-based", "value": 1, category: "adjective"},
+    {"x": "high-growth", "value": 1, category: "adjective"},
+    {"x": "powerful", "value": 1, category: "adjective"},
+    {"x": "technology-focused", "value": 1, category: "adjective"},
+    {"x": "exciting", "value": 1, category: "adjective"},
+    {"x": "fastest-growing", "value": 2, category: "adjective"},
+    {"x": "top-emerging", "value": 1, category: "adjective"},
+    {"x": "geospatial", "value": 1, category: "adjective"},
+    {"x": "versatile", "value": 1, category: "adjective"},
+  ];
+
+
+   // create a tag cloud chart
+    var chart = anychart.tagCloud(data);
+
+  // set the chart title
+    //chart.title('Geography - Nouns')
+
+  // set array of angles, by which words will be placed
+    chart.angles([0])
+
+
+  // create and configure a color scale.
+    var customColorScale = anychart.scales.linearColor();
+    customColorScale.colors(["#000000", "#dbab39"]);
+
+  // set the color scale as the color scale of the chart
+    chart.colorScale(customColorScale);
+
+  // add a color range
+    //chart.colorRange().enabled(true);
+
+  // configure the visual settings of the chart
+    //chart.normal().fill("#00000");
+    //chart.hovered().fill("#484848");
+    //chart.selected().fill("#1f66ad");
+    //chart.normal().fontWeight(600);
+
+  // enable the legend
+   // chart.legend(true);
+
+  // enable color range
+  //chart.colorRange(false);
+
+  // set color range length
+  //chart.colorRange().length('80%');
+
+  // display chart
+  chart.container("container");
+  chart.draw();
+});
+
+</script>
+ </body>
+</html>
