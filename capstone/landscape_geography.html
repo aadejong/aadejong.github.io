@@ -22,12 +22,32 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+		<!--IFRAME BUTTON FOR MAP: https://codepen.io/creotip/pen/iLsIq-->
+		<!--HideFrame button: https://stackoverflow.com/questions/42138953/how-to-remove-iframe-when-click-to-button-->
+		<script type="text/javascript" language="JavaScript">
+
+		function DoViewIFRAME(tid1,tid2,tid3) {
+		document.getElementById(tid1).style.display = "none";
+		document.getElementById(tid2).style.display = "";
+		document.getElementById(tid3).style.display = "";
+		}
+		function DoHideIFRAME(tid1,tid2,tid3) {
+		document.getElementById(tid1).style.display = "none";
+		document.getElementById(tid2).style.display = "none";
+		document.getElementById(tid3).style.display = "";
+		}
+
+		</script>
+
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header" class="skel-layers-fixed">
-				<h1><a href="#">MSGT Capstone</a></h1>
+				<h1><a href="">MSGT Capstone</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="https://aadejong.github.io/">Home</a></li>
@@ -84,9 +104,29 @@
 
 						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
 
-						<!-- <iframe width="100%" height="800px" src="https://uwt-gis-geotech.maps.arcgis.com/apps/webappviewer/index.html?id=5102cd51bcaa46a1af714063a351522e" frameborder="0" scrolling="no"></iframe> -->
+					<!--IFRAME FOR MAP-->
+					<div id="aniframeupstart" align="center" style="display: none;">
+						<iframe id="frame" width="100%" height="800px" src="https://uwt-gis-geotech.maps.arcgis.com/apps/webappviewer/index.html?id=5102cd51bcaa46a1af714063a351522e" frameborder="0" scrolling="no"></iframe>
+					</div>
+
+					<!--BUTTONS FOR MAP-->
+					<li class ="button"><span id="viewiframe" onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');">SHOW MAP -</span> <span id="hideiframe" onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');" >HIDE MAP</span></li>
+						
+					
+
+					
+					
+	
+
+
+       					
+
+						<!--<iframe id="frame" width="100%" height="800px" src="https://uwt-gis-geotech.maps.arcgis.com/apps/webappviewer/index.html?id=5102cd51bcaa46a1af714063a351522e" frameborder="0" scrolling="no"></iframe>
+  -->
 						
 					</section>
+
+
 
 					<hr class="major" id="corpus_analysis"/>
 
@@ -111,7 +151,6 @@
 					</div>
 
 
-					
 
 					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
 					
