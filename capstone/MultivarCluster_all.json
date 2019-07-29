@@ -15,7 +15,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 64.85762787,
-    "long": -147.7998352
+    "long": -147.7998352,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 2,
@@ -33,7 +34,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 30.69552994,
-    "long": -88.17484283
+    "long": -88.17484283,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 3,
@@ -51,7 +53,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 33.21509171,
-    "long": -87.54640198
+    "long": -87.54640198,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 4,
@@ -69,7 +72,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 32.60414124,
-    "long": -85.48188019
+    "long": -85.48188019,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 5,
@@ -87,7 +91,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 36.0703392,
-    "long": -94.17756653
+    "long": -94.17756653,
+    "description": "More frequent use of the word \"geoscience"
   },
   {
     "OBJECTID": 6,
@@ -105,7 +110,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 35.07825851,
-    "long": -92.45487213
+    "long": -92.45487213,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 7,
@@ -123,7 +129,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 32.22500992,
-    "long": -111.0145416
+    "long": -111.0145416,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 8,
@@ -141,7 +148,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 32.23210144,
-    "long": -110.9509506
+    "long": -110.9509506,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 9,
@@ -159,7 +167,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 35.17713928,
-    "long": -111.6541595
+    "long": -111.6541595,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 10,
@@ -177,7 +186,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 33.14761734,
-    "long": -117.1852036
+    "long": -117.1852036,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 11,
@@ -195,7 +205,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 37.86948013,
-    "long": -122.2592926
+    "long": -122.2592926,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 12,
@@ -213,7 +224,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 37.72600937,
-    "long": -122.478447
+    "long": -122.478447,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 13,
@@ -231,7 +243,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.95557022,
-    "long": -104.8217697
+    "long": -104.8217697,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 14,
@@ -249,7 +262,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.00392151,
-    "long": -105.2668381
+    "long": -105.2668381,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 15,
@@ -267,7 +281,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.74588013,
-    "long": -105.0025177
+    "long": -105.0025177,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 16,
@@ -285,7 +300,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.76192856,
-    "long": -72.56787109
+    "long": -72.56787109,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 17,
@@ -303,7 +319,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.80904007,
-    "long": -72.2575531
+    "long": -72.2575531,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 18,
@@ -321,7 +338,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 41.69004059,
-    "long": -72.77078247
+    "long": -72.77078247,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 19,
@@ -339,7 +357,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.90050888,
-    "long": -77.05011749
+    "long": -77.05011749,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 20,
@@ -357,7 +376,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.66688919,
-    "long": -75.75276184
+    "long": -75.75276184,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 21,
@@ -375,7 +395,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 30.35317039,
-    "long": -81.60418701
+    "long": -81.60418701,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 22,
@@ -393,7 +414,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 30.44072914,
-    "long": -84.29087067
+    "long": -84.29087067,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 23,
@@ -411,7 +433,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 25.71756935,
-    "long": -80.27758026
+    "long": -80.27758026,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 24,
@@ -429,7 +452,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 33.57379913,
-    "long": -85.09873962
+    "long": -85.09873962,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 25,
@@ -447,7 +471,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 33.9571991,
-    "long": -83.37406158
+    "long": -83.37406158,
+    "description": "More frequent use of the word \"GIScience"
   },
   {
     "OBJECTID": 26,
@@ -465,7 +490,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 32.42681122,
-    "long": -81.78423309
+    "long": -81.78423309,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 27,
@@ -483,7 +509,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 19.69877052,
-    "long": -155.0808258
+    "long": -155.0808258,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 28,
@@ -501,7 +528,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 21.29937935,
-    "long": -157.8201599
+    "long": -157.8201599,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 29,
@@ -519,7 +547,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.66252136,
-    "long": -91.53650665
+    "long": -91.53650665,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 30,
@@ -537,7 +566,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 42.51311111,
-    "long": -92.46208954
+    "long": -92.46208954,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 31,
@@ -555,7 +585,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 1,
     "lat": 46.72819138,
-    "long": -117.006897
+    "long": -117.006897,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 32,
@@ -573,7 +604,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 41.89530182,
-    "long": -87.61605072
+    "long": -87.61605072,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 33,
@@ -591,7 +623,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.93101883,
-    "long": -88.76215363
+    "long": -88.76215363,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 34,
@@ -609,7 +642,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 2,
     "lat": 38.6213913,
-    "long": -90.16210175
+    "long": -90.16210175,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 35,
@@ -627,7 +661,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.46345139,
-    "long": -87.04464722
+    "long": -87.04464722,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 36,
@@ -645,7 +680,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.17351151,
-    "long": -86.51605225
+    "long": -86.51605225,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 37,
@@ -663,7 +699,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 39.46812057,
-    "long": -87.40706635
+    "long": -87.40706635,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 38,
@@ -681,7 +718,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 37.39144897,
-    "long": -94.70503998
+    "long": -94.70503998,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 39,
@@ -699,7 +737,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.92943954,
-    "long": -94.84217072
+    "long": -94.84217072,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 40,
@@ -717,7 +756,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.87202835,
-    "long": -99.33988953
+    "long": -99.33988953,
+    "description": "More frequent use of the word \"geoscience"
   },
   {
     "OBJECTID": 41,
@@ -735,7 +775,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 37.74221039,
-    "long": -84.30227661
+    "long": -84.30227661,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 42,
@@ -753,7 +794,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.03903961,
-    "long": -84.50669098
+    "long": -84.50669098,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 43,
@@ -771,7 +813,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 36.98728943,
-    "long": -86.45513916
+    "long": -86.45513916,
+    "description": "More frequent use of the word \"GIScience"
   },
   {
     "OBJECTID": 44,
@@ -789,7 +832,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 30.41577911,
-    "long": -91.17754364
+    "long": -91.17754364,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 45,
@@ -807,7 +851,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 1,
     "lat": 42.12969971,
-    "long": -72.79541016
+    "long": -72.79541016,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 46,
@@ -825,7 +870,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 42.25016022,
-    "long": -71.82238007
+    "long": -71.82238007,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 47,
@@ -843,7 +889,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 42.5038681,
-    "long": -70.88983917
+    "long": -70.88983917,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 48,
@@ -861,7 +908,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.64830017,
-    "long": -78.93292236
+    "long": -78.93292236,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 49,
@@ -879,7 +927,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 1,
     "lat": 38.98785019,
-    "long": -76.93890381
+    "long": -76.93890381,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 50,
@@ -897,7 +946,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.3483696,
-    "long": -75.60787964
+    "long": -75.60787964,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 51,
@@ -915,7 +965,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 43.6623497,
-    "long": -70.27792358
+    "long": -70.27792358,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 52,
@@ -933,7 +984,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 44.6675415,
-    "long": -70.14861298
+    "long": -70.14861298,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 53,
@@ -951,7 +1003,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": 1,
     "lat": 42.92694855,
-    "long": -85.58918762
+    "long": -85.58918762,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 54,
@@ -969,7 +1022,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 42.72946167,
-    "long": -84.48040771
+    "long": -84.48040771,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 55,
@@ -987,7 +1041,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 42.24671936,
-    "long": -83.62203979
+    "long": -83.62203979,
+    "description": "More frequent use of the word \"GIS"
   },
   {
     "OBJECTID": 56,
@@ -1005,7 +1060,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.32223892,
-    "long": -93.96868134
+    "long": -93.96868134,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 57,
@@ -1023,7 +1079,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.97463989,
-    "long": -93.22415161
+    "long": -93.22415161,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 58,
@@ -1041,7 +1098,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 45.55221176,
-    "long": -94.15270996
+    "long": -94.15270996,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 59,
@@ -1059,7 +1117,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 37.19800186,
-    "long": -93.27619934
+    "long": -93.27619934,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 60,
@@ -1077,7 +1136,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 39.03443146,
-    "long": -94.57570648
+    "long": -94.57570648,
+    "description": "More frequent use of the word \"geoscience"
   },
   {
     "OBJECTID": 61,
@@ -1095,7 +1155,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.94440842,
-    "long": -92.32929993
+    "long": -92.32929993,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 62,
@@ -1113,7 +1174,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 31.32802963,
-    "long": -89.3321228
+    "long": -89.3321228,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 63,
@@ -1131,7 +1193,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 45.66513062,
-    "long": -111.0494766
+    "long": -111.0494766,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 64,
@@ -1149,7 +1212,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 46.86125946,
-    "long": -113.9813766
+    "long": -113.9813766,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 65,
@@ -1167,7 +1231,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 35.97589874,
-    "long": -78.90109253
+    "long": -78.90109253,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 66,
@@ -1185,7 +1250,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 35.90874863,
-    "long": -79.03009796
+    "long": -79.03009796,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 67,
@@ -1203,7 +1269,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 36.21126938,
-    "long": -81.67739105
+    "long": -81.67739105,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 68,
@@ -1221,7 +1288,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 47.91968155,
-    "long": -97.07324982
+    "long": -97.07324982,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 69,
@@ -1239,7 +1307,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 40.91334915,
-    "long": -97.09191132
+    "long": -97.09191132,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 70,
@@ -1257,7 +1326,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.81689835,
-    "long": -96.70010376
+    "long": -96.70010376,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 71,
@@ -1275,7 +1345,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 1,
     "lat": 41.25933075,
-    "long": -96.00731659
+    "long": -96.00731659,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 72,
@@ -1293,7 +1364,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 43.7031517,
-    "long": -72.28941345
+    "long": -72.28941345,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 73,
@@ -1311,7 +1383,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 43.76034927,
-    "long": -71.68914032
+    "long": -71.68914032,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 74,
@@ -1329,7 +1402,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 43.14109039,
-    "long": -70.93831635
+    "long": -70.93831635,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 75,
@@ -1347,7 +1421,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 40.85831833,
-    "long": -74.19986725
+    "long": -74.19986725,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 76,
@@ -1365,7 +1440,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 40.94636154,
-    "long": -74.1999588
+    "long": -74.1999588,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 77,
@@ -1383,7 +1459,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.54851913,
-    "long": -74.48092651
+    "long": -74.48092651,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 78,
@@ -1401,7 +1478,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 32.28543091,
-    "long": -106.7454224
+    "long": -106.7454224,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 79,
@@ -1419,7 +1497,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 35.08343124,
-    "long": -106.619751
+    "long": -106.619751,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 80,
@@ -1437,7 +1516,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.54769135,
-    "long": -119.8210373
+    "long": -119.8210373,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 81,
@@ -1455,7 +1535,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 41.68682098,
-    "long": -73.8955307
+    "long": -73.8955307,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 82,
@@ -1473,7 +1554,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 43.00037003,
-    "long": -78.78925323
+    "long": -78.78925323,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 83,
@@ -1491,7 +1573,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 42.0870285,
-    "long": -75.9658432
+    "long": -75.9658432,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 84,
@@ -1509,7 +1592,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.29608917,
-    "long": -83.06797028
+    "long": -83.06797028,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 85,
@@ -1527,7 +1611,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": 1,
     "lat": 39.77698135,
-    "long": -84.06664276
+    "long": -84.06664276,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 86,
@@ -1545,7 +1630,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.51036072,
-    "long": -84.73445892
+    "long": -84.73445892,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 87,
@@ -1563,7 +1649,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 35.65587997,
-    "long": -97.47498322
+    "long": -97.47498322,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 88,
@@ -1581,7 +1668,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 35.91989136,
-    "long": -94.96678162
+    "long": -94.96678162,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 89,
@@ -1599,7 +1687,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 1,
     "lat": 35.21036148,
-    "long": -97.44599152
+    "long": -97.44599152,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 90,
@@ -1617,7 +1706,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 44.85190964,
-    "long": -123.2372971
+    "long": -123.2372971,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 91,
@@ -1635,7 +1725,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.56452942,
-    "long": -123.274147
+    "long": -123.274147,
+    "description": "More frequent use of the word \"GIScience"
   },
   {
     "OBJECTID": 92,
@@ -1653,7 +1744,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": 1,
     "lat": 45.51329041,
-    "long": -122.6846466
+    "long": -122.6846466,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 93,
@@ -1671,7 +1763,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 39.95304871,
-    "long": -75.19402313
+    "long": -75.19402313,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 94,
@@ -1689,7 +1782,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.80707169,
-    "long": -77.85887909
+    "long": -77.85887909,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 95,
@@ -1707,7 +1801,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.03454971,
-    "long": -75.33753967
+    "long": -75.33753967,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 96,
@@ -1725,7 +1820,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 41.8417511,
-    "long": -71.46070099
+    "long": -71.46070099,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 97,
@@ -1743,7 +1839,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 33.99771881,
-    "long": -81.03015137
+    "long": -81.03015137,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 98,
@@ -1761,7 +1858,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.32046127,
-    "long": -96.78833771
+    "long": -96.78833771,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 99,
@@ -1779,7 +1877,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 36.30443954,
-    "long": -82.36627197
+    "long": -82.36627197,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 100,
@@ -1797,7 +1896,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 35.95249939,
-    "long": -83.92707062
+    "long": -83.92707062,
+    "description": "More frequent use of the word \"GIScience"
   },
   {
     "OBJECTID": 101,
@@ -1815,7 +1915,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 35.84606171,
-    "long": -86.36908722
+    "long": -86.36908722,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 102,
@@ -1833,7 +1934,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 32.70885086,
-    "long": -97.36048889
+    "long": -97.36048889,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 103,
@@ -1851,7 +1953,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 30.27869987,
-    "long": -97.73246002
+    "long": -97.73246002,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 104,
@@ -1869,7 +1972,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 29.5850296,
-    "long": -98.61723328
+    "long": -98.61723328,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 105,
@@ -1887,7 +1991,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": 1,
     "lat": 40.25238037,
-    "long": -111.6501465
+    "long": -111.6501465,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 106,
@@ -1905,7 +2010,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 40.76522827,
-    "long": -111.849472
+    "long": -111.849472,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 107,
@@ -1923,7 +2029,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.74094009,
-    "long": -111.8147125
+    "long": -111.8147125,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 108,
@@ -1941,7 +2048,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.00910187,
-    "long": -73.17626953
+    "long": -73.17626953,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 109,
@@ -1959,7 +2067,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.47544098,
-    "long": -73.20063019
+    "long": -73.20063019,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 110,
@@ -1977,7 +2086,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": "",
     "lat": 36.77244186,
-    "long": -81.83273315
+    "long": -81.83273315,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 111,
@@ -1995,7 +2105,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 36.8747406,
-    "long": -76.17434692
+    "long": -76.17434692,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 112,
@@ -2013,7 +2124,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.30065155,
-    "long": -77.47319794
+    "long": -77.47319794,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 113,
@@ -2031,7 +2143,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 47.6565094,
-    "long": -122.312088
+    "long": -122.312088,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 114,
@@ -2049,7 +2162,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 46.9997406,
-    "long": -120.5431137
+    "long": -120.5431137,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 115,
@@ -2067,7 +2181,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 47.48973846,
-    "long": -117.5782166
+    "long": -117.5782166,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 116,
@@ -2085,7 +2200,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 44.02627182,
-    "long": -88.55166626
+    "long": -88.55166626,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 117,
@@ -2103,7 +2219,8 @@
     "IN_GUIDE": "N",
     "deptlabor_stat": 1,
     "lat": 42.62340164,
-    "long": -87.82440948
+    "long": -87.82440948,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 118,
@@ -2121,7 +2238,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 43.07584,
-    "long": -89.39756775
+    "long": -89.39756775,
+    "description": "More frequent use of the word \"geography"
   },
   {
     "OBJECTID": 119,
@@ -2139,7 +2257,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 37.42499924,
-    "long": -81.00440979
+    "long": -81.00440979,
+    "description": "More frequent use of the word \"geospatial"
   },
   {
     "OBJECTID": 120,
@@ -2157,7 +2276,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 39.63373947,
-    "long": -79.95510864
+    "long": -79.95510864,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 121,
@@ -2175,7 +2295,8 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 38.42234039,
-    "long": -82.42987823
+    "long": -82.42987823,
+    "description": "Most representative of average word use"
   },
   {
     "OBJECTID": 122,
@@ -2193,6 +2314,7 @@
     "IN_GUIDE": "Y",
     "deptlabor_stat": "",
     "lat": 41.31135941,
-    "long": -105.5826492
+    "long": -105.5826492,
+    "description": "More frequent use of the word \"geography"
   }
 ]
