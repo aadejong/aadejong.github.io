@@ -98,12 +98,12 @@
         var schoolsDataSet = anychart.data.set(data).mapAs();
 
         // creates 5 series, filtering the data by the amount of Fatalities
-        createSeries('1', schoolsDataSet.filter('CLUSTER_ID', filter_function(1, 2)), '#80deea');
-        createSeries('2', schoolsDataSet.filter('CLUSTER_ID', filter_function(2, 3)), '#26c6da');
-        createSeries('3', schoolsDataSet.filter('CLUSTER_ID', filter_function(3, 4)), '#00acc1');
-        createSeries('4', schoolsDataSet.filter('CLUSTER_ID', filter_function(4, 5)), '#0097a7');
-        createSeries('5', schoolsDataSet.filter('CLUSTER_ID', filter_function(5, 6)), '#00838f');
-        createSeries('6', schoolsDataSet.filter('CLUSTER_ID', filter_function(6)), '#006064');
+        createSeries('1', schoolsDataSet.filter('CLUSTER_ID', filter_function(1, 2)), '#000000');
+        createSeries('2', schoolsDataSet.filter('CLUSTER_ID', filter_function(2, 3)), '#69A682');
+        createSeries('3', schoolsDataSet.filter('CLUSTER_ID', filter_function(3, 4)), '#449CA6');
+        createSeries('4', schoolsDataSet.filter('CLUSTER_ID', filter_function(4, 5)), '#C09C48');
+        createSeries('5', schoolsDataSet.filter('CLUSTER_ID', filter_function(5, 6)), '#BD828B');
+        createSeries('6', schoolsDataSet.filter('CLUSTER_ID', filter_function(6)), '#A3BBC3');
 
         // turns on the legend for the sample
         map.legend().enabled(true);
