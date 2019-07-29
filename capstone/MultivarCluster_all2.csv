@@ -1,0 +1,123 @@
+﻿OBJECTID,SOURCE_ID,geography_fx,gis_fx,giscience_fx,geoscience_fx,geospatial_fx,CLUSTER_ID,IS_SEED,STATE,Program,INSTITUTION,IN_GUIDE,deptlabor_stat,lat,long
+1,1,23,7,0,0,6,5,0,Alaska,D,"University of Alaska, Fairbanks",N,,64.85762787,-147.7998352
+2,2,8,2,0,0,0,1,0,Alabama,B,University of S Alabama,N,,30.69552994,-88.17484283
+3,3,10,20,0,0,1,4,0,Alabama,D,University of Alabama,Y,,33.21509171,-87.54640198
+4,4,15,2,0,4,1,1,1,Alabama,M,Auburn University,Y,,32.60414124,-85.48188019
+5,5,5,3,0,11,3,3,0,Arkansas,M,University of Arkansas,N,,36.0703392,-94.17756653
+6,6,17,20,0,0,3,4,0,Arkansas,M,University of Central Arkansas,N,,35.07825851,-92.45487213
+7,7,8,0,0,0,0,1,0,Arizona,B,Prima Community College,Y,,32.22500992,-111.0145416
+8,8,29,5,1,0,3,5,0,Arizona,D,University of Arizona,Y,,32.23210144,-110.9509506
+9,9,16,12,0,0,11,6,0,Arizona,M,Northern Arizona University,Y,,35.17713928,-111.6541595
+10,10,15,10,0,0,1,1,0,California,B,Palomar College,Y,,33.14761734,-117.1852036
+11,11,36,3,0,0,0,5,0,California,D,"University of California, Berkeley",Y,,37.86948013,-122.2592926
+12,12,24,22,0,0,1,4,0,California,M,Sanfrancisco State University,Y,,37.72600937,-122.478447
+13,13,1,0,0,0,9,6,0,Colorado,B,United States Air Force Academy,Y,,38.95557022,-104.8217697
+14,14,26,4,2,0,0,5,0,Colorado,D,"University of Colorado, Boulder",Y,,40.00392151,-105.2668381
+15,15,10,7,0,0,6,6,0,Colorado,M,"University of Colorado, Denver",Y,,39.74588013,-105.0025177
+16,16,5,0,0,0,0,1,0,Connecitcut,B,Manchester Community College,Y,,41.76192856,-72.56787109
+17,17,20,14,3,2,4,4,0,Connecticut,D,University of Connecticut,Y,,41.80904007,-72.2575531
+18,18,24,2,0,0,0,5,0,Connecticut,M,Central Connecticut State University,N,,41.69004059,-72.77078247
+19,19,23,6,0,0,3,5,0,DC,M,George Washington University,Y,,38.90050888,-77.05011749
+20,20,14,21,0,0,0,4,0,Delaware,D,University of Delaware,Y,,39.66688919,-75.75276184
+21,21,10,1,0,0,0,1,0,Florida,B,Jacksonville University,N,,30.35317039,-81.60418701
+22,22,6,5,2,0,4,1,0,Florida,D,Florida State University,N,,30.44072914,-84.29087067
+23,23,7,6,0,0,7,6,0,Florida,M,University of Miami,N,,25.71756935,-80.27758026
+24,24,8,5,0,1,3,1,0,Georgia,B,University of West Georgia,N,,33.57379913,-85.09873962
+25,25,15,5,6,0,4,2,0,Georgia,D,University of Georgia,Y,,33.9571991,-83.37406158
+26,26,29,2,0,1,4,5,0,Georgia,M,Georgia Southern University,Y,,32.42681122,-81.78423309
+27,27,13,3,0,0,0,1,0,Hawaii,B,"University of Hawaii, Hilo",N,,19.69877052,-155.0808258
+28,28,12,1,0,0,6,6,0,Hawaii,D,University of Hawaii at Moana,Y,,21.29937935,-157.8201599
+29,29,2,0,2,0,1,1,0,Iowa,D,University of Iowa,Y,,41.66252136,-91.53650665
+30,30,16,4,0,0,0,1,0,Iowa,M,University of Northern Iowa,Y,,42.51311111,-92.46208954
+31,31,15,25,0,0,2,4,0,Idaho,D,University of Idaho,Y,1,46.72819138,-117.006897
+32,32,12,0,3,0,0,1,0,Illinois,B,Northwestern University,N,,41.89530182,-87.61605072
+33,33,9,7,0,0,0,1,0,Illinois,D,Northern Illinois University,Y,,41.93101883,-88.76215363
+34,34,24,3,0,0,4,5,1,Illinois,M,"Southern Illinois Universiy, Edwardsville",Y,2,38.6213913,-90.16210175
+35,35,52,13,3,0,5,5,0,Indiana,B,Valparaiso University,Y,,41.46345139,-87.04464722
+36,36,37,19,0,0,1,4,0,Indiana,D,Indiana University,Y,,39.17351151,-86.51605225
+37,37,13,5,0,4,1,1,0,Indiana,M,Indiana State University,N,,39.46812057,-87.40706635
+38,38,7,4,0,0,0,1,0,Kansas,B,Pittsburg State University,Y,,37.39144897,-94.70503998
+39,39,21,2,1,0,1,5,0,Kansas,D,Kansas State University,Y,,38.92943954,-94.84217072
+40,40,15,6,0,20,0,3,0,Kansas,M,Fort Hays State University,Y,,38.87202835,-99.33988953
+41,41,1,0,0,1,0,1,0,Kentucky,B,Eastern Kentucky University,N,,37.74221039,-84.30227661
+42,42,11,2,0,0,0,1,0,Kentucky,D,University of Kentucky,Y,,38.03903961,-84.50669098
+43,43,2,7,7,0,2,2,0,Kentucky,M,Western Kentucky University,Y,,36.98728943,-86.45513916
+44,44,13,2,0,0,3,1,0,Louisiana,D,Louisiana State University,Y,,30.41577911,-91.17754364
+45,45,3,37,0,0,5,4,0,Massachusetts,B,Westfield State University,Y,1,42.12969971,-72.79541016
+46,46,42,22,3,1,6,4,0,Massachusetts,D,Clark University,Y,,42.25016022,-71.82238007
+47,47,7,4,0,0,1,1,0,Massachusetts,M,Salem State University,Y,,42.5038681,-70.88983917
+48,48,19,1,0,4,0,1,0,Maryland,B,Frostburg State University,Y,,39.64830017,-78.93292236
+49,49,4,8,0,0,3,1,0,Maryland,D,"University of Maryland, College Park",Y,1,38.98785019,-76.93890381
+50,50,28,26,4,3,1,4,0,Maryland,M,Salisbury University,Y,,38.3483696,-75.60787964
+51,51,8,12,0,0,3,1,0,Maine,B,University of Southern Maine,Y,,43.6623497,-70.27792358
+52,52,8,7,0,0,1,1,0,Maine,B,University of Maine at Farmington,N,,44.6675415,-70.14861298
+53,53,8,7,0,0,2,1,0,Michigan,B,Calvin College,N,1,42.92694855,-85.58918762
+54,54,40,7,0,0,3,5,1,Michigan,D,Michigan State University,Y,,42.72946167,-84.48040771
+55,55,17,17,0,0,8,4,0,Michigan,M,Eastern Michigan University,Y,,42.24671936,-83.62203979
+56,56,17,1,0,0,3,1,0,Minnesota,B,Gustavus Adolphus College,Y,,44.32223892,-93.96868134
+57,57,37,6,0,0,1,5,0,Minnesota,D,"University of Minnesota, Twin Cities",Y,,44.97463989,-93.22415161
+58,58,14,10,0,0,3,1,0,Minnesota,M,St. Cloud State University,Y,,45.55221176,-94.15270996
+59,59,7,0,0,0,6,6,0,Missouri,B,"Missouri State University, Springfield",N,,37.19800186,-93.27619934
+60,60,7,5,0,12,5,3,0,Missouri,D,"University of Missouri, Kansas City",N,,39.03443146,-94.57570648
+61,61,19,5,0,0,8,6,0,Missouri,M,"University of Missouri, Columbia",Y,,38.94440842,-92.32929993
+62,62,17,0,0,0,2,1,0,Mississippi,D,University of Southern Mississippi,N,,31.32802963,-89.3321228
+63,63,14,11,0,0,2,1,0,Montana,D,Montana State University,Y,,45.66513062,-111.0494766
+64,64,13,10,0,0,1,1,0,Montana,M,University of Montana,Y,,46.86125946,-113.9813766
+65,65,1,0,0,0,2,1,1,North Carolina,B,North Carolina Central University,N,,35.97589874,-78.90109253
+66,66,13,0,0,0,0,1,0,North Carolina,D,University of North Carolina Chapel Hill,Y,,35.90874863,-79.03009796
+67,67,10,3,0,0,1,1,0,North Carolina,M,Appalachian State University,Y,,36.21126938,-81.67739105
+68,68,11,1,0,0,3,1,0,North Dakota,M,University of North Dakota,Y,,47.91968155,-97.07324982
+69,69,3,1,0,0,1,1,0,Nebraska,B,"Concordia University, Nebraska",N,,40.91334915,-97.09191132
+70,70,8,3,0,0,1,1,0,Nebraska,D,"University of Nebraska, Lincoln",Y,,40.81689835,-96.70010376
+71,71,19,2,0,0,2,1,0,Nebraska,M,"University of Nebraska, Omaha",Y,1,41.25933075,-96.00731659
+72,72,21,0,0,0,0,1,0,New Hampshire,B,Dartmouth College,Y,,43.7031517,-72.28941345
+73,73,6,0,0,0,0,1,0,New Hampshire,B,Plymouth State University,Y,,43.76034927,-71.68914032
+74,74,10,0,0,0,1,1,0,New Hampshire,B,University of New Hampshire,Y,,43.14109039,-70.93831635
+75,75,4,0,0,0,1,1,0,New Jersey,B,Montclair State University,N,,40.85831833,-74.19986725
+76,76,19,4,0,0,0,1,0,New Jersey,B,William Patterson University,N,,40.94636154,-74.1999588
+77,77,24,1,0,0,2,5,0,New Jersey,D,Rutgers University,Y,,40.54851913,-74.48092651
+78,78,12,9,0,0,0,1,0,New Mexico,M,New Mexico State University,Y,,32.28543091,-106.7454224
+79,79,6,0,1,0,0,1,0,New Mexico,M,University of New Mexico,Y,,35.08343124,-106.619751
+80,80,26,3,0,0,4,5,0,Nevada,D,"University of Nevada, Reno",Y,,39.54769135,-119.8210373
+81,81,13,3,0,0,0,1,0,New York,B,Vassar College,N,,41.68682098,-73.8955307
+82,82,13,1,0,0,0,1,0,New York,D,"University at Buffalo, SUNY",Y,,43.00037003,-78.78925323
+83,83,6,1,0,0,0,1,0,New York,M,"Binghamton University, SUNY",Y,,42.0870285,-75.9658432
+84,84,5,4,0,0,0,1,0,Ohio,B,Ohio Wesleyan University,Y,,40.29608917,-83.06797028
+85,85,7,0,0,0,4,1,0,Ohio,D,Wright State University,N,1,39.77698135,-84.06664276
+86,86,11,3,0,0,6,6,0,Ohio,M,Miami University of Ohio,Y,,39.51036072,-84.73445892
+87,87,10,0,0,0,1,1,0,Oklahoma,B,University of Central Oklahoma,Y,,35.65587997,-97.47498322
+88,88,8,7,0,0,0,1,0,Oklahoma,B,Northeastern State University,N,,35.91989136,-94.96678162
+89,89,6,2,0,0,2,1,0,Oklahoma,D,University of Oklahoma,Y,1,35.21036148,-97.44599152
+90,90,10,0,0,0,0,1,0,Oregon,B,Western Oregon University,N,,44.85190964,-123.2372971
+91,91,31,2,9,0,15,2,0,Oregon,D,Oregon State University,Y,,44.56452942,-123.274147
+92,92,16,8,0,0,0,1,0,Oregon,D,Portland State University,Y,1,45.51329041,-122.6846466
+93,93,0,0,0,5,0,1,0,Pennsylvania,B,Mansfield University of Pennsylvania,N,,39.95304871,-75.19402313
+94,94,17,1,2,0,15,6,0,Pennsylvania,D,Pennsylvania State University,Y,,40.80707169,-77.85887909
+95,95,9,0,0,0,1,1,0,Pennsylvania,M,Villanova University,Y,,40.03454971,-75.33753967
+96,96,9,2,0,0,0,1,0,Rhode Island,B,Rhode Island College,N,,41.8417511,-71.46070099
+97,97,33,3,1,0,6,5,0,South Carolina,D,University of South Carolina,Y,,33.99771881,-81.03015137
+98,98,27,3,0,0,7,5,0,South Dakota,D,South Dakota State University,Y,,44.32046127,-96.78833771
+99,99,6,1,0,6,6,6,0,Tennessee,B,East Tennessee State University,N,,36.30443954,-82.36627197
+100,100,12,6,8,0,0,2,0,Tennessee,D,"University of Tennessee, Knoxville",Y,,35.95249939,-83.92707062
+101,101,9,0,0,0,0,1,0,Tennessee,M,Middle Tennessee State University,Y,,35.84606171,-86.36908722
+102,102,3,2,0,0,0,1,0,Texas,B,Texas Christian University,Y,,32.70885086,-97.36048889
+103,103,4,3,0,0,0,1,0,Texas,D,University of Texas at Austin,Y,,30.27869987,-97.73246002
+104,104,12,2,0,0,0,1,0,Texas,M,University of Texas at San Antonio,Y,,29.5850296,-98.61723328
+105,105,17,4,0,0,10,6,0,Utah,B,Bringham Young University,N,1,40.25238037,-111.6501465
+106,106,5,2,0,0,1,1,0,Utah,D,University of Utah,Y,,40.76522827,-111.849472
+107,107,20,2,0,0,1,1,0,Utah,M,Utah State University,Y,,41.74094009,-111.8147125
+108,108,26,2,0,0,2,5,0,Vermont,B,Middlebury College,Y,,44.00910187,-73.17626953
+109,109,8,1,0,0,0,1,0,Vermont,B,University of Vermont,Y,,44.47544098,-73.20063019
+110,110,7,1,0,0,0,1,0,Virginia,B,Emory & Henry College,N,,36.77244186,-81.83273315
+111,111,5,1,0,0,2,1,1,Virginia,D,Virginia Tech,Y,,36.8747406,-76.17434692
+112,112,6,7,0,0,7,6,0,Virginia,M,University of Mary Washington,Y,,38.30065155,-77.47319794
+113,113,14,6,0,0,1,1,0,Washington,D,University of Washington,Y,,47.6565094,-122.312088
+114,114,7,3,1,0,1,1,0,Washington,M,Central Washington University,Y,,46.9997406,-120.5431137
+115,115,6,3,0,0,0,1,0,Washington,M,Eastern Washington University,Y,,47.48973846,-117.5782166
+116,116,2,15,0,0,0,1,0,Wisconsin,B,"University of Wisconsin, Oshkosh",Y,,44.02627182,-88.55166626
+117,117,9,4,0,0,8,6,0,Wisconsin,B,Carthage College,N,1,42.62340164,-87.82440948
+118,118,30,13,0,0,0,5,0,Wisconsin,D,"University of Wisconsin, Madison",Y,,43.07584,-89.39756775
+119,119,8,1,0,0,6,6,0,West Virginia,B,Concord University,Y,,37.42499924,-81.00440979
+120,120,13,0,0,0,0,1,0,West Virginia,D,West Virginia University,Y,,39.63373947,-79.95510864
+121,121,17,5,3,0,0,1,1,West Virginia,M,Marshall University,Y,,38.42234039,-82.42987823
+122,122,24,3,0,0,3,5,0,Wyoming,M,University of Wyoming,Y,,41.31135941,-105.5826492
