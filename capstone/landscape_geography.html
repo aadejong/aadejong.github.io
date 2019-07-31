@@ -93,20 +93,6 @@
 	  cursor: pointer;
 	}
 	
-	button.modal {
- 	background:none;
-	  border-top:none;
-	  border-right:none;
-	  border-left:none;
-	  border-bottom:#02274a 1px solid;
-	  padding:0 0 3px 0;
-	  font-size:16px;
-	}
-
-	button.modal:hover {
-	  border-bottom:#a99567 1px solid;
-	  color:#a99567;
-	}
 	</style>
 		
 	</head>
@@ -226,7 +212,7 @@
 					
 					<!-- MODAL EXAMPLE https://codepen.io/JackZelig/pen/VPdQXJ -->
 						
-					  <button class="button modal" data-modal="modalOne">
+					  <button class="button small" data-modal="modalOne">
 					    Pseudo F 
 					  </button>
 						
@@ -241,7 +227,7 @@
 					</div>
 			
 					
-					  <button class="button modal" data-modal="modalTwo">
+					  <button class="button small" data-modal="modalTwo">
 					    Box Plots
 					  </button>
 					
@@ -250,6 +236,19 @@
 					    <div class="contact-form">
 					      <span class="close">&times;</span>
 					      <img src="images/multivclust_boxplots.png" alt="" />
+					    </div>
+					  </div>
+					</div>
+						
+					<button class="button small" data-modal="modalThree">
+					    Cluster Counts
+					  </button>
+					
+					<div id="modalThree" class="modal">
+					  <div class="modal-content">
+					    <div class="contact-form">
+					      <span class="close">&times;</span>
+					      <img src="images/multivclust_count.png" alt="" />
 					    </div>
 					  </div>
 					</div>
