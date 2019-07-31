@@ -100,21 +100,6 @@
     text-decoration: none;
     cursor: pointer;
 }
-
-button.button {
- 	background:none;
-  border-top:none;
-  border-right:none;
-  border-left:none;
-  border-bottom:#02274a 1px solid;
-  padding:0 0 3px 0;
-  font-size:16px;
-}
-
-button.button:hover {
-  border-bottom:#a99567 1px solid;
-  color:#a99567;
-}
 	</style>
 		
 	</head>
@@ -241,28 +226,31 @@ button.button:hover {
 					    <p>Pseudo F Stats Chart</p>
 					  </div>
 					</div> -->
+					
+					<!-- MODAL EXAMPLE https://codepen.io/JackZelig/pen/VPdQXJ -->
 						
-						<p>
-					  <button class="button" data-modal="modalOne">
-					    Contact Us
-					  </button>
-					</p>
 					<p>
-					  <button class="button" data-modal="modalTwo">
-					    Send Us Hate Mail
-					<img src="images/pseudo-f.png" alt="" />
+					  <button class="button small" data-modal="modalOne">
+					    Pseudo F 
 					  </button>
 					</p>
-
+						
 					<div id="modalOne" class="modal">
 					  <div class="modal-content">
 					    <div class="contact-form">
 					      <a class="close">&times;</a>
-					      <h2>Ask A Question</h2><br>
+					      <p>Ask A Question</p><br>
+						<img src="images/pseudo-f.png" alt="" />
 					    </div>
 					  </div>
 					</div>
-
+						
+					<p>
+					  <button class="button small" data-modal="modalTwo">
+					    Box Plots
+					  </button>
+					</p>
+						
 					<div id="modalTwo" class="modal">
 					  <div class="modal-content">
 					    <div class="contact-form">
