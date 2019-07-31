@@ -52,46 +52,69 @@
 	</script>
 	
 	<style>
-		body {font-family: Arial, Helvetica, sans-serif;}
+		/* Popup Box */
 
-		/* The Modal (background) */
-		.modal {
-		  display: none; /* Hidden by default */
-		  position: fixed; /* Stay in place */
-		  z-index: 1; /* Sit on top */
-		  padding-top: 100px; /* Location of the box */
-		  left: 0;
-		  top: 0;
-		  width: 100%; /* Full width */
-		  height: 100%; /* Full height */
-		  overflow: auto; /* Enable scroll if needed */
-		  background-color: rgb(0,0,0); /* Fallback color */
-		  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-		}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 8888; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
-		/* Modal Content */
-		.modal-content {
-		  background-color: #fefefe;
-		  margin: auto;
-		  padding: 20px;
-		  border: 1px solid #888;
-		  width: 80%;
-		}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+@media (min-width: 1366px) {
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+	}
+}
 
-		/* The Close Button */
-		.close {
-		  color: #aaaaaa;
-		  float: right;
-		  font-size: 28px;
-		  font-weight: bold;
-		}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
-		.close:hover,
-		.close:focus {
-		  color: #000;
-		  text-decoration: none;
-		  cursor: pointer;
-		}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button {
+ 	background:none;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:#02274a 1px solid;
+  padding:0 0 3px 0;
+  font-size:16px;
+}
+
+button.button:hover {
+  border-bottom:#a99567 1px solid;
+  color:#a99567;
+}
 	</style>
 		
 	</head>
@@ -206,30 +229,46 @@
 					<!--Template courtesy of Anychart - https://playground.anychart.com/gallery/Maps_Point_Maps_(Dot_Maps)/USA_Biggest_Cities --> 
 					<iframe width="100%" height="450px" src="./multiv_clusters/map.html" frameborder="0" scrolling="no"></iframe>
 					
-					<!-- PSEUDO F -->
-					<!-- MODAL BUTTON EXAMPLE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal -->
-					<!--Trigger/Open The Modal -->
+					
+					<!-- MODAL BUTTON EXAMPLE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 					<button id="myBtn" class="button small">Pseudo F Chart</button>
-					<!-- The Modal -->
+					<!-- The Modal 
 					<div id="myModal" class="modal">
-					  <!-- Modal content -->
+					  <!-- Modal content 
 					  <div class="modal-content">
 					    <span class="close">&times;</span>
 						<img src="images/pseudo-f.png" alt="" />
 					    <p>Pseudo F Stats Chart</p>
 					  </div>
-					</div>
-					
-					<!-- BOX PLOTS -->
-					<!--Trigger/Open The Modal -->
-					<button id="myBtn2" class="button small">Box Plots</button>
-					<!-- The Modal -->
-					<div id="myModal2" class="modal">
-					  <!-- Modal content -->
+					</div> -->
+						
+						<p>
+					  <button class="button" data-modal="modalOne">
+					    Contact Us
+					  </button>
+					</p>
+					<p>
+					  <button class="button" data-modal="modalTwo">
+					    Send Us Hate Mail
+					<img src="images/pseudo-f.png" alt="" />
+					  </button>
+					</p>
+
+					<div id="modalOne" class="modal">
 					  <div class="modal-content">
-					    <span class="close">&times;</span>
-						<img src="images/multivclust_boxplots.png" alt="" />
-					    <p>Box Plots</p>
+					    <div class="contact-form">
+					      <a class="close">&times;</a>
+					      <h2>Ask A Question</h2><br>
+					    </div>
+					  </div>
+					</div>
+
+					<div id="modalTwo" class="modal">
+					  <div class="modal-content">
+					    <div class="contact-form">
+					      <span class="close">&times;</span>
+					      <h2>Haters Gonna Hate</h2><br>
+					    </div>
 					  </div>
 					</div>
 						
@@ -372,29 +411,26 @@
 				</div>
 			</footer>
 	<script>
-	// Get the modal
-	var modal = document.getElementById("myModal", "myModal2", "myModal3");
+		
+		var modalBtns = [...document.querySelectorAll(".button")];
+	modalBtns.forEach(function(btn){
+	  btn.onclick = function() {
+	    var modal = btn.getAttribute('data-modal');
+	    document.getElementById(modal).style.display = "block";
+	  }
+	});
 
-	// Get the button that opens the modal
-	var btn = document.getElementById("myBtn", "myBtn2", "myBtn3");
-
-	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
-
-	// When the user clicks the button, open the modal 
-	btn.onclick = function() {
-	  modal.style.display = "block";
-	}
-
-	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() {
-	  modal.style.display = "none";
-	}
-
-	// When the user clicks anywhere outside of the modal, close it
-	window.onclick = function(event) {
-	  if (event.target == modal) {
+	var closeBtns = [...document.querySelectorAll(".close")];
+	closeBtns.forEach(function(btn){
+	  btn.onclick = function() {
+	    var modal = btn.closest('.modal');
 	    modal.style.display = "none";
+	  }
+	});
+
+	window.onclick = function(event) {
+	  if (event.target.className === "modal") {
+	    event.target.style.display = "none";
 	  }
 	}
 	</script>
