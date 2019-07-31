@@ -22,14 +22,15 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		<script src="js/modal.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
-			<link rel="stylesheet" href="css/modal.css" />
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		</noscript>
-
+		
+ 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
 
 	
@@ -53,49 +54,6 @@
 	      myFunction();
 	    }
 	</script>
-		
-	<style>
-		body {font-family: Arial, Helvetica, sans-serif;}
-
-		/* The Modal (background) */
-		.modal {
-		  display: none; /* Hidden by default */
-		  position: fixed; /* Stay in place */
-		  z-index: 1; /* Sit on top */
-		  padding-top: 100px; /* Location of the box */
-		  left: 0;
-		  top: 0;
-		  width: 100%; /* Full width */
-		  height: 100%; /* Full height */
-		  overflow: auto; /* Enable scroll if needed */
-		  background-color: rgb(0,0,0); /* Fallback color */
-		  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-		}
-
-		/* Modal Content */
-		.modal-content {
-		  background-color: #fefefe;
-		  margin: auto;
-		  padding: 20px;
-		  border: 1px solid #888;
-		  width: 80%;
-		}
-
-		/* The Close Button */
-		.close {
-		  color: #aaaaaa;
-		  float: right;
-		  font-size: 28px;
-		  font-weight: bold;
-		}
-
-		.close:hover,
-		.close:focus {
-		  color: #000;
-		  text-decoration: none;
-		  cursor: pointer;
-		}
-	</style>
 
 	</head>
 	<body id="top">
@@ -203,20 +161,30 @@
 					
 					<h4>Multivariate Clustering</h4>
 					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-					<!-- Trigger/Open The Modal -->
-						<button id="myBtn">Pseudo-F Chart</button>
-
-						<!-- The Modal -->
-						<div id="myModal" class="modal">
-
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <span class="close">&times;</span>
-							<img src="images/pseudo-f.png" alt=""/>
-						    <p>Some text in the Modal..</p>
+					
+					<!-- Modal Button - https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h -->
+						
+						<!-- Modal -->
+					  <div class="modal fade" id="myModal" role="dialog">
+					    <div class="modal-dialog">
+					      <!-- Modal content-->
+					      <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal">&times;</button>
+						  <h4 class="modal-title">Modal Header</h4>
 						</div>
-
+						<div class="modal-body">
+						 <img src="images/pseudo-f.png" alt="Pseudo F Chart">
+						  <p>Pseudo F.</p>
 						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+						</div>
+					    </div>
+					  </div>
+					
+					</div>
 					
 					<!--Multivariate Clustering Map--> 
 					<!--Template courtesy of Anychart - https://playground.anychart.com/gallery/Maps_Point_Maps_(Dot_Maps)/USA_Biggest_Cities --> 
@@ -361,33 +329,5 @@
 					</ul>
 				</div>
 			</footer>
-	<script>
-			// Get the modal
-		var modal = document.getElementById("myModal");
-
-		// Get the button that opens the modal
-		var btn = document.getElementById("myBtn");
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks the button, open the modal 
-		btn.onclick = function() {
-		  modal.style.display = "block";
-		}
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		  if (event.target == modal) {
-		    modal.style.display = "none";
-		  }
-		}
-	</script>
-		
 	</body>
 </html>
