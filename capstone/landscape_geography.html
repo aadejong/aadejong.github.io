@@ -124,13 +124,23 @@
 						<a class="image fit"><img src="images/WWW_1990_Mirjam_Siim.jpg" alt="" /></a>
 
 						<!--Caption for artwork-->
-						<div style="width:image width px; font-size:80%; text-align:right;">Artwork: <a href="https://www.behance.net/MSarte">Mirjam Siim</a>
+						<div style="width:image width px; font-size:80%; text-align:right;">Artwork: <a href="https://www.behance.net/MSarte" target="_blank">Mirjam Siim</a>
 						</div>
 
 
 						<h2>Background</h2>
 
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<h5>(This webpage serves as an interactive companion to my capstone paper as partial fulfillment of a Master’s of Science in Geospatial Technologies at the University of Washington, Tacoma.) </h5>
+
+						<br>
+
+						<p>In recent years, “cartographers” and “specialists in geography” have often been cited as <a href="https://www.bls.gov/ooh/life-physical-and-social-science/geographers.htm#tab-6" target="_blank">growing occupations</a> in the United States. Responsively, Geography departments in U.S. higher education are appealing to a perceived need for “geographic skills” in the American workforce—specifically for GIS.</p>
+
+						<p>With the growth of GIS and workforce demands in mind, this project seeks to portray the modern landscape of higher level Geography in the United States. To do so, it conducts a geographical text analysis of the language used by U.S. Geography departments on their public webpages. </p>
+
+						<p>Geographical text analysis combines qualitative and quantitative techniques from corpus linguistics, critical discourse analysis (CDA), and GIS in order to “understand geographical patterns and meanings within text” (Cooper et al, 2015). It draws on the argument that “language is a primary method of communication which allows us to come to a shared understanding of how the world is structured” (Cooper et al, 2015). While geographical text analysis is a relatively novel methodological approach, its interdisciplinary methods help to parse out spatial narratives—such as how GIS is impacting Geography departments across the United States. </p>
+
+
 
 						<!--Buttons
 
@@ -146,7 +156,19 @@
 
 						<h2>Creating a Corpus</h2>
 
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<p>Corpus linguistics is “a methodology used to study language using a large naturally occurring body of text” known as a corpus (Gregory et al, 2015). The corpus for this project consists of 84,084 word tokens gathered from the webpages of <button class="button alt small" data-modal="modalFour">122 Geography departments</button> across the United States over the month of June 2019. By gathering text related to how departments present themselves and the discipline of Geography to the public, this study is able to analyze differences in how “geography” and “GIS” are understood and described in higher level education across the country. </p>
+
+						<p>In order to parse through the corpus, this project utilized <a href="https://www.laurenceanthony.net/software/antconc/" target="_blank">AntConc</a>, a free corpus analysis toolkit. The concordance plot tool was used to search for the frequency of specific words including “geography,” “GIS,” “GIScience,” “geoscience,” and “geospatial.” The “hits,” or number of mentions of the searched word, were recorded for each academic institution in an Excel table. From there, data could be used in spatial analysis. 
+						</p>
+
+					<div id="modalFour" class="modal">
+					  <div class="modal-content">
+					    <div class="contact-form">
+					      <span class="close">&times;</span>
+					      <a class="image fit"><img src="images/schools.jpg" alt="" /></a>
+					    </div>
+					  </div>
+					</div>
 
 						
 						<!--SPATIAL ANALYSIS-->
@@ -154,10 +176,11 @@
 
 						<h2>SPATIAL ANALYSIS</h2>
 
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<p>Two calculations—Kernel Density and Multivariate Clustering—were used to map spatial patterns in where “geography” and “GIS” are discussed across the United States. This was carried out using ESRI’s ArcPro Spatial Analyst tools.</p>
 
 						<h4>Kernel Density</h4>
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<p>This technique is commonly used in geographical text analysis studies as a way of illustrating concentrations of language use across a geographical area (Patterson & Gregory, 2018)(Gregory et al., 2015). Kernel Density calculates the density of input points by first calculating the probability of density then determining a search radius (ESRI, 2019). In this case, the search radius for points was weighted by frequency of “geography” and “GIS” values respectively.</p>
+						<p>These Kernel Density maps are a spatial interpolation of where “Geography” and “GIS” are most frequently mentioned across the country.</p> 
 
 						
 					<!--Kernel Density Maps--> 
@@ -166,36 +189,31 @@
 							<section class="special">
 								<iframe src="geography_kernel.html" height="400px" width="440px"></iframe>
 								<h3>Geography</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p></p>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
 								<iframe src="GIS_kernel.html" height="400px" width="440px"></iframe>
 								<h3>GIS</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p></p>
 							</section>
 						</div>
 					</div>
 
-					<!--IFRAME FOR DATA DASHBOARD 
+					<p>Both words show the highest concentration of mentions in the northeastern United States followed by the Midwest, Pacific Northwest, and southern California. While these regional concentrations are very similar due to the shared location of schools, there are also notable differences.</p>
+					<p>“Geography” is mentioned in a relatively more dense and even spread across the country. “GIS,” however, is not far behind. This alludes to a growing spread of GIS use in Geography programs across the country. While this itself is not bad, it would be interesting to track if regional language use changes over time. Higher mentions of “GIS” in Geography programs would be highly indicative of the valorization of GIS cautioned by Brown (2004), Smith (1992), Thatcher and Imaoka (2018), and others. </p>
 
-						<li class ="button"><span onclick="showFrame()">Show Map</span></li>
-
-					<li class ="button"><span onclick="hideFrame()">Hide Map</span></li>
-  					
-  					<p></p>
-
-					<iframe id="frame" width="100%" height="800px" src="https://uwt-gis-geotech.maps.arcgis.com/apps/webappviewer/index.html?id=5102cd51bcaa46a1af714063a351522e" frameborder="0" scrolling="no" style="display:none"></iframe>  -->
-					
-
-					<!--BUTTONS FOR MAP-->
-					
+					<p>Click on the buttons below to open a map of Kernel Density layers for other words. 
+						<!--BUTTONS FOR MAP-->
 					<li class ="button alt"><span onclick="showFrame()">Show Map</span></li>
 
 					<li class ="button alt"><span onclick="hideFrame()">Hide Map</span></li>
 
-					<iframe id="frame" width="100%" height="800px" src="https://www.arcgis.com/apps/Embed/index.html?webmap=d797256cf6644c09a215bb466ff0aed6&extent=-180,9.0799,-31.5993,69.6493&home=true&zoom=true&previewImage=false&scale=false&legendlayers=true&disable_scroll=true&theme=dark" frameborder="0" scrolling="no" style="display:none"></iframe>
+					</p>
+
+					<!--MAP-->
+					<iframe id="frame" width="100%" height="600px" src="https://www.arcgis.com/apps/Embed/index.html?webmap=d797256cf6644c09a215bb466ff0aed6&extent=-180,9.0799,-31.5993,69.6493&home=true&zoom=true&previewImage=false&scale=false&legendlayers=true&disable_scroll=true&theme=dark" frameborder="0" scrolling="no" style="display:none"></iframe>
 
 					<p></p>
 					<p></p>
