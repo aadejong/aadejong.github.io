@@ -206,9 +206,9 @@
 
 					<p>Click on the buttons below to open a map of Kernel Density layers for other words. 
 						<!--BUTTONS FOR MAP-->
-					<li class ="button alt"><span onclick="showFrame()">Show Map</span></li>
+					<li class ="button"><span onclick="showFrame()">Show Map</span></li>
 
-					<li class ="button alt"><span onclick="hideFrame()">Hide Map</span></li>
+					<li class ="button"><span onclick="hideFrame()">Hide Map</span></li> 
 
 					</p>
 
@@ -219,18 +219,31 @@
 					<p></p>
 					
 					<h4>Multivariate Clustering</h4>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+					<p>The second spatial analysis utilized ArcPro’s Multivariate Clustering tool in order to visualize non-spatial patterns in language use. Multivariate Clustering uses a K-means algorithm to categorize data into groups with the fewest differences between feature attributes. In this case, clustering was based on each school’s attribute fields for use of the words “geography,” “GIS,” “GIScience,” “geoscience,” and “geospatial.” </p>
+					<p>The optimal number of clusters was determined by calculating an optimized  <button class="button alt small" data-modal="modalOne">pseudo-F statistic chart</button>. A larger F-statistic indicates “how many clusters will be most effective at distinguishing the features and variables” specified. Although the largest F-statistic for this dataset was 30, the number of clusters used in this analysis is 6 because it was the lowest number of clusters with the highest F-statistic. This allows for easier interpretation of variation between clusters categories.</p>
+
+					<p>Using this set of <button class="button alt small" data-modal="modalTwo">box-plots</button>, each of the 6 clusters can be characterized in the following way:<p>
+						<ol> 
+						  <li>Most representative of average word use.</li> 
+						  <li>More frequent use of the word “GIScience.”</li> 
+						  <li>More frequent use of the word "geoscience."</li> 
+						  <li>More frequent use of the word "GIS."</li>
+						  <li>More frequent use of the word "geography."</li>  
+						  <li>More frequent use of the word "geospatial."</li> 
+						</ol>
 					
 					<!--Multivariate Clustering Map--> 
 					<!--Template courtesy of Anychart - https://playground.anychart.com/gallery/Maps_Point_Maps_(Dot_Maps)/USA_Biggest_Cities --> 
 					<iframe width="100%" height="450px" src="./multiv_clusters/map.html" frameborder="0" scrolling="no"></iframe>
+
+					<p>Category 1 is the largest category and includes 71 schools from all across the country from Maine and Florida to Washington, California, and Hawaii. Category 5, the second largest category, includes 19 schools that display more frequent mentions of the word “geography.” These schools are also distributed across the country with notable clusters in California, the Midwest, and along the northeast coast.<p>
+					<p>Overall, this map illustrates a regional variation and inconsistency of language use in Geography departments across the country.<p>
+
 				
 					
 					<!-- MODAL EXAMPLE found here: https://codepen.io/JackZelig/pen/VPdQXJ -->
 						
-					  <button class="button small" data-modal="modalOne">
-					    Pseudo F 
-					  </button>
+					 
 						
 					<div id="modalOne" class="modal">
 					  <div class="modal-content">
@@ -241,11 +254,7 @@
 					    </div>
 					  </div>
 					</div>
-			
-					
-					  <button class="button small" data-modal="modalTwo">
-					    Box Plots
-					  </button>
+					 
 					
 					<div id="modalTwo" class="modal">
 					  <div class="modal-content">
@@ -256,9 +265,9 @@
 					  </div>
 					</div>
 						
-					<button class="button small" data-modal="modalThree">
+					<!--<button class="button small" data-modal="modalThree">
 					    Cluster Counts
-					  </button>
+					  </button> -->
 					
 					<div id="modalThree" class="modal">
 					  <div class="modal-content">
@@ -274,7 +283,13 @@
 
 					<h2>Discourse Analysis</h2>
 
-					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+					<p>Critical discourse analysis aims to systematically explore how relationships between discourse (in this case, text from Geography departments) and wider social structures, relations, and processes are shaped by relations of power (Fairclough, 1993). This study uses a series of visualizations in order to depict power relations in how Geography departments discuss “Geography” and “GIS.”</p>
+
+					<p>The first visualization addresses whether there are significant differences in the language used by Geography departments offering different levels of degrees (bachelor’s, master’s, or doctorate). Despite slight differences, language composition remains very similar across all categories and are generally reflective of the corpus as a whole.</p>
+
+					<p>These charts illustrate that although language varies regionally, there is some consistency across departments which offer different levels of degrees.</p>
+
+					<p>Click on the chart to see exact quanities.</p>
 
 					<!--Pie chart template courtesy of Anychart - https://docs.anychart.com/Basic_Charts/Pie_Chart --> 
 
@@ -292,9 +307,12 @@
 						</div>
 					</div>
 
+					<p>
+					</p>
 
+					<p>The second visualization is a series of word clouds comparing which nouns, modifiers (adjectives), and activities (verbs) are used to describe “geography” and “GIS” within the corpus and across the country. These words connote a different pace of urgency between “GIS” and “geography.” It is not hard to imagine that these differences in language hold power to subliminally influence prospective students and decision-makers within academic institutions. </p>
 
-					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+					<p>Click on each word to see exact quantities.</p>
 					
 
 					<!--Tag cloud template courtesy of Anychart - https://docs.anychart.com/Basic_Charts/Tag_Cloud --> 
@@ -305,14 +323,14 @@
 							<section class="special">
 								<iframe src="word-clouds/geog-nouns.html" height="200px" width="400px"></iframe>
 								<h3>Geography Nouns</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p>Most commonly referred to as a “study,” “science,” or, like in the case of this project, a “discipline.”</p>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
 								<iframe src="word-clouds/gis-nouns.html" height="200px" width="400px"></iframe>
 								<h3>GIS Nouns</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p>Referred to as a “technology” and “tool.” Career-alluding language ("employment sector", "career paths") is not used in reference to “geography.”</p>
 							</section>
 						</div>
 					</div>
@@ -323,14 +341,14 @@
 							<section class="special">
 								<iframe src="word-clouds/geog-adj.html" height="200px" width="400px"></iframe>
 								<h3>Geography Adjectives</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p>Described with moderate positivity (“exciting,” “comprehensive,” “interdisciplinary").</p>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
 								<iframe src="word-clouds/gis-adj.html" height="200px" width="400px"></iframe>
 								<h3>GIS Adjectives</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p>In a 1995 analysis of discourse used to market geographic information systems, Jon Goss refers to this type of language as “technopornography”: “the technical apparatus is eroticized in an aesthetics of power, speed, and control” (Goss, 1995).</p>
 							</section>
 						</div>
 					</div>
@@ -341,14 +359,14 @@
 							<section class="special">
 								<iframe src="word-clouds/geog-verbs.html" height="200px" width="400px"></iframe>
 								<h3>Geography Verbs</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p> Much more subdued with words such as, “concerned with,” “situated,” “designed,” and “understanding.” </p>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
 								<iframe src="word-clouds/gis-verbs.html" height="200px" width="400px"></iframe>
 								<h3>GIS Verbs</h3>
-								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id.</p>
+								<p>“GIS” is “anticipated,” “expected,” “used,” and “expanding.”</p>
 							</section>
 						</div>
 					</div>
@@ -363,7 +381,11 @@
 
 						<h2>Conclusions</h2>
 
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<p>With an emphasis on job opportunities for workers with skills in geospatial technologies, Geography departments have grown to better accommodate GIS. An emphasis on GIS, however, poses the risk of morphing Geography’s academic agenda into one that is more focused on technical training than providing intellectual foundations for what the discipline serves to do: “[help] individuals and groups to make critical judgements and rational decisions about issues” (Stoltman, 1990).</p>
+
+						<p>By employing a geographical text analysis of the language used by Geography departments across the country, this project depicts the modern landscape of Geography in US higher education. Spatial analyses reveal slight differences in regional concentrations of uses of the words “geography” and “GIS.” Meanwhile, there is also a regional inconsistency between mentions of the words, “geography,” “GIS,” “GIScience,” “geoscience,” and “geospatial” which creates potential for confusion when distinguishing between the five words. Discourse analysis, however, reveals a consistency between language use and level of degree offered by Geography departments. More importantly, discourse analysis also reveals a stark contrast in the language used to describe “geography” compared to “GIS.” While “geography” is portrayed as more subdued, “GIS” is marketed with and a sense of urgency and suggested promise of employment.</p>
+
+						<p>These findings only begin to uncover the spatial narrative of how GIS is impacting Geography departments across the United States. This study is limited by the size of its dataset, accidental omission of text during to manual data collection, and possible calculation errors. Further research might expand the number of Geography departments from which to gather text and compare how language use has changed over time. </p>
 
 					</section>
 			</div>
