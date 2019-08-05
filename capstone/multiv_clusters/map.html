@@ -43,7 +43,7 @@
                 .stroke('#D2D2D2');
 
         map.credits()
-                .enabled(true)
+                .enabled(false)
                 .url('https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population')
                 .text('Data source: https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population')
                 .logoSrc('https://en.wikipedia.org/static/favicon/wikipedia.ico');
@@ -106,13 +106,19 @@
         var schoolsDataSet = anychart.data.set(data).mapAs();
 
         // creates 5 series, filtering the data by the amount of Fatalities
-        createSeries('1', schoolsDataSet.filter('CLUSTER_ID', filter_function(1, 2)), '#000000');
-        createSeries('2', schoolsDataSet.filter('CLUSTER_ID', filter_function(2, 3)), '#69A682');
-        createSeries('3', schoolsDataSet.filter('CLUSTER_ID', filter_function(3, 4)), '#449CA6');
-        createSeries('4', schoolsDataSet.filter('CLUSTER_ID', filter_function(4, 5)), '#C09C48');
-        createSeries('5', schoolsDataSet.filter('CLUSTER_ID', filter_function(5, 6)), '#BD828B');
-        createSeries('6', schoolsDataSet.filter('CLUSTER_ID', filter_function(6)), '#A3BBC3');
+        createSeries('1 - Most representative of average word use.', schoolsDataSet.filter('CLUSTER_ID', filter_function(1, 2)), '#000000');
+        createSeries('2 - More frequent use of the word “GIScience.”', schoolsDataSet.filter('CLUSTER_ID', filter_function(2, 3)), '#69A682');
+        createSeries('3 - More frequent use of the word "geoscience."', schoolsDataSet.filter('CLUSTER_ID', filter_function(3, 4)), '#449CA6');
+        createSeries('4 - More frequent use of the word "GIS."', schoolsDataSet.filter('CLUSTER_ID', filter_function(4, 5)), '#C09C48');
+        createSeries('5 - More frequent use of the word "geography."', schoolsDataSet.filter('CLUSTER_ID', filter_function(5, 6)), '#BD828B');
+        createSeries('6 - More frequent use of the word "geospatial."', schoolsDataSet.filter('CLUSTER_ID', filter_function(6)), '#A3BBC3');
 
+         // set the layout of the legend
+        chart.legend().itemsLayout("vertical");
+
+        // set the position of the legend
+        chart.legend().position("right");
+     
         // turns on the legend for the sample
         map.legend().enabled(true);
 
