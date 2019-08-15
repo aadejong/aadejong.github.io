@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <!--
+  ArcGIS API for JavaScript, https://js.arcgis.com
+  For more information about the intro-mapview sample, read the original sample description at developers.arcgis.com.
+  https://developers.arcgis.com/javascript/latest/sample-code/intro-mapview/index.html
+  -->
+<title>Intro to MapView - Create a 2D map - 4.12</title>
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.12/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.12/"></script>
+
+    <script>
+      
+      require(["esri/Map", "esri/views/MapView", "esri/layers/Layer", "esri/widgets/Home"], function(Map, MapView, Layer, Home) {
+        var map = new Map({
+          basemap: "gray-vector"
+        });
+
+        var view = new MapView({
+          container: "viewDiv",
+          map: map,
+          zoom: 2.5,
+          center: [-100.049, 38.485]//longitude, latitude
+        });
+        
+        var homeBtn = new Home({
+          view: view
+        });
+
+        // Add the home button to the top left corner of the view
+        view.ui.add(homeBtn, "top-left");
+      
+   
+    
+
+        
+        /************************************************
+         *
+         * Create a layer from an existing Portal item hosted
+         * in ArcGIS Online using the ID of the item.
+         *
+         *************************************************/
+       
+       Layer.fromPortalItem({
+          portalItem: {
+            // autocasts as new PortalItem()
+            id:  "20d3e3010c33472e9dd8d3b8a1ab4248"
+          }
+        })
+          .then(addLayer)
+          .catch(rejection);
+
+        // Adds the layer to the map once it loads
+        function addLayer(layer) {
+          map.add(layer);
+        }
+
+        function rejection(error) {
+          console.log("Layer failed to load: ", error);
+        }
+
+        
+         /*Layer.fromPortalItem({
+          portalItem: {
+            // autocasts as new PortalItem()
+            id: "4cac9d67b3dd4098b245873c43106a0a"
+          }
+        })
+          .then(addLayer)
+          .catch(rejection);
+
+        // Adds the layer to the map once it loads
+        function addLayer(layer) {
+          map.add(layer);
+        }
+
+        function rejection(error) {
+          console.log("Layer failed to load: ", error);
+        } */
+        
+      });
+      
+      
+    </script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
